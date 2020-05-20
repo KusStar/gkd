@@ -35,6 +35,11 @@ Scripts:
 > npm run prettier
 ```
 
+## Thanks
+
+- [create-snowpack-app](https://github.com/pikapkg/create-snowpack-app)
+- [create-ink-app](https://github.com/vadimdemedes/create-ink-app)
+
 ## License
 
 [MIT](LICENSE)
