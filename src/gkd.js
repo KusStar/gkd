@@ -1,9 +1,11 @@
+'use strict'
+
 const path = require('path')
 const Listr = require('listr')
 const fs = require('fs-extra')
 const chalk = require('chalk')
-const { isYarn } = require('is-npm')
 const { prompt } = require('enquirer')
+const { logSuccess, logRequireArgs } = require('./utils')
 
 const getSourceDir = (root) => path.join(__dirname, '../templates', root)
 
@@ -65,43 +67,13 @@ const copyFiles = async (variables) => {
   ])
 }
 
-const logPackageScripts = (appName) => {
-  try {
-    const target = path.join(process.cwd(), appName, 'package.json')
-    const raw = fs.readFileSync(target, { encoding: 'utf8' })
-    const json = JSON.parse(raw)
-    const scripts = Object.keys(json.scripts)
-    // log
-    console.log(chalk.bold.underline.greenBright(`Scripts:`))
-    console.log()
-    for (const script of scripts) {
-      console.log(`> ${isYarn ? 'yarn' : 'npm'} run ${chalk.bold(script)}`)
-    }
-  } catch (_) {
-    // just catch
-  }
-}
-
-const logSuccess = (appName) => {
-  console.log()
-  console.log(chalk.bold.underline.greenBright(`Start:`))
-  console.log()
-  console.log(`> cd ${appName}`)
-  console.log(`> ${isYarn ? 'yarn' : 'npm'} install`)
-  console.log()
-  logPackageScripts(appName)
-  console.log()
-}
-
 const getAllTemplates = () => {
   return fs.readdir(getSourceDir(''))
 }
 
 const validateArgs = async (appName, flags) => {
   if (!appName) {
-    console.log()
-    console.log(`${chalk.red('X')} ${chalk.cyan('app-name')} is required`)
-    console.log()
+    logRequireArgs('app-name')
     process.exit(1)
   }
   const allTemplates = await getAllTemplates()
@@ -121,13 +93,8 @@ const validateArgs = async (appName, flags) => {
 }
 
 module.exports = async (input, flags) => {
-  const { appName, template, author } = await validateArgs(input[0], flags)
-  const variables = {
-    appName,
-    template,
-    author,
-    template,
-  }
+  const variables = await validateArgs(input[0], flags)
+  const { appName, template } = variables
   const tasks = new Listr([
     {
       title: `Generate template: ${chalk.cyan(template)}`,

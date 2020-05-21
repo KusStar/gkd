@@ -1,6 +1,8 @@
 #!/usr/bin/env node
+'use strict'
+
 const meow = require('meow')
-const gkd = require('./gkd.js')
+const gkd = require('./gkd')
 
 const cli = meow(
   `
