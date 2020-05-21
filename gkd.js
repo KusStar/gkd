@@ -3,6 +3,10 @@ const Listr = require('listr');
 const fs = require('fs-extra');
 const chalk = require('chalk');
 const { isYarn } = require('is-npm');
+const { prompt } = require('enquirer');
+
+const getSourceDir = (root) =>
+    path.join(__dirname, 'templates', root);
 
 const prepareDir = async (dir) => {
   const exists = await fs.exists(dir);
@@ -46,8 +50,6 @@ const replaceTemplateAllFiles = async (target, variables) => {
 }
 
 const copyFiles = async (variables) => {
-  const getSourceDir = (root) =>
-    path.join(__dirname, 'templates', root);
 
   const { appName, template } = variables;
 
@@ -84,7 +86,7 @@ const logPackageScripts = (appName) => {
 
 const logSuccess = (appName) => {
   console.log();
-  console.log(chalk.bold.underline.greenBright(`Installation:`));
+  console.log(chalk.bold.underline.greenBright(`Start:`));
   console.log();
   console.log(`> cd ${appName}`);
   console.log(`> ${isYarn ? 'yarn' : 'npm'} install`);
@@ -93,16 +95,46 @@ const logSuccess = (appName) => {
   console.log();
 }
 
-module.exports = (input, flags) => {
-  const appName = input[0] || 'app-name'
-  const { template, author } = flags
+const getAllTemplates = () => {
+  return fs.readdir(getSourceDir(''))
+}
+
+const validateArgs = async (appName, flags) => {
+  if (!appName) {
+    console.log();
+    console.log(`${chalk.red('X')} ${chalk.cyan('app-name')} is required`);
+    console.log();
+    process.exit(1);
+  }
+  const allTemplates = await getAllTemplates()
+  if (!allTemplates.includes(flags.template)) {
+    const response = await prompt({
+      type: 'select',
+      name: 'template',
+      message: 'Which template do you want to generate?',
+      choices: allTemplates,
+    });
+    flags.template = response.template;
+  }
+  return {
+    appName,
+    ...flags,
+  }
+}
+
+module.exports = async (input, flags) => {
+  const { appName, template, author } = await validateArgs(input[0], flags);
   const variables = {
     appName,
     template,
     author,
     template
-  }
+  };
   const tasks = new Listr([
+    {
+      title: `Generate template: ${chalk.cyan(template)}`,
+      task: () => null
+    },
     {
       title: 'Copy files',
       task: () => copyFiles(variables)
