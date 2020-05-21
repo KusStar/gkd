@@ -1,9 +1,9 @@
 {
   "name": "gkd-cli",
-  "version": "1.0.0",
-  "description": "My templates generator",
+  "version": "1.0.2",
+  "description": "A templates generator",
   "license": "MIT",
-  "repository": "kuss/gkd-cli",
+  "repository": "kusstar/gkd-cli",
   "author": "kuss",
   "bin": {
     "gkd": "cli.js"
