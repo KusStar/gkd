@@ -1,6 +1,6 @@
 # gkd-cli
 
-> My template generator.
+> A template generator.
 
 ## Installation
 
@@ -18,7 +18,7 @@ $ gkd --help
 ## Example
 
 ```bash
-$ gkd test -t react-ts-webpack-template
+$ gkd test -t react-ts-webpack
 
   ✔ Copy files
   ✔ Success
