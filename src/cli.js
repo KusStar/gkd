@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-const meow = require('meow');
-const gkd = require('./gkd.js');
+const meow = require('meow')
+const gkd = require('./gkd.js')
 
-const cli = meow(`
+const cli = meow(
+  `
   Usage
       $ gkd app-name [options]
 
@@ -21,7 +22,7 @@ const cli = meow(`
     flags: {
       template: {
         type: 'string',
-        alias: 't'
+        alias: 't',
       },
       ['author.name']: {
         type: 'string',
@@ -31,8 +32,8 @@ const cli = meow(`
         type: 'string',
         default: 'https://github.com/KusStar',
       },
-    }
+    },
   }
-);
+)
 
-gkd(cli.input, cli.flags);
+gkd(cli.input, cli.flags)
