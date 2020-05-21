@@ -68,7 +68,9 @@ const copyFiles = async (variables) => {
 }
 
 const getAllTemplates = () => {
-  return fs.readdir(getSourceDir(''))
+  return fs
+    .readdirSync(getSourceDir(''))
+    .filter((template) => template !== 'common')
 }
 
 const validateArgs = async (appName, flags) => {
@@ -76,7 +78,7 @@ const validateArgs = async (appName, flags) => {
     logRequireArgs('app-name')
     process.exit(1)
   }
-  const allTemplates = await getAllTemplates()
+  const allTemplates = getAllTemplates()
   if (!allTemplates.includes(flags.template)) {
     const response = await prompt({
       type: 'select',
