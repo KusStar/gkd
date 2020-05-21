@@ -4,61 +4,64 @@ const fs = require('fs-extra');
 const chalk = require('chalk');
 const { isYarn } = require('is-npm');
 
-const getFromDir = (root) => 
-  path.join(__dirname, 'templates', root);
-
 const prepareDir = async (dir) => {
-  const exists = await fs.exists(dir)
+  const exists = await fs.exists(dir);
   if (exists) {
-    await fs.remove(dir)
+    await fs.remove(dir);
   }
-  await fs.mkdir(dir)
+  await fs.mkdir(dir);
 }
 
-const replaceWithTemplate = async (from, variables) => {
+const replaceTemplateVariables = async (from, variables) => {
   const source = await fs.readFile(from, 'utf8');
-  let generatedSource = source;
+
+  const variablesRegex = /%NAME%|%AUTHOR%|%PAGE%|%YEAR%/g;
+  if (!source.match(variablesRegex)) {
+    return;
+  }
 
   if (typeof variables === 'object') {
-    const { appName, author } = variables
-    generatedSource = generatedSource
+    const { appName, author } = variables;
+    const generatedSource = source
       .replace(/%NAME%/g, appName)
       .replace(/%AUTHOR%/g, author.name)
       .replace(/%PAGE%/g, author.page)
       .replace(/%YEAR%/g, new Date().getFullYear());
-  }
 
-  await fs.writeFile(from, generatedSource);
+    await fs.writeFile(from, generatedSource);
+  }
 }
 
-const replaceVariablesRecursive = async (target, variables) => {
-  const res = await fs.readdir(target)
-  
-  for (const curr of res) {
-    const file = path.join(target, curr)
-    const isFile = fs.lstatSync(file).isFile()
+const replaceTemplateAllFiles = async (target, variables) => {
+  const res = await fs.readdir(target);
+  for (const current of res) {
+    const currentPath = path.join(target, current);
+    const isFile = fs.lstatSync(currentPath).isFile();
     if (isFile) {
-      replaceWithTemplate(file, variables)
+      replaceTemplateVariables(currentPath, variables);
     } else {
-      replaceVariablesRecursive(path.join(target, curr), variables)
+      replaceTemplateAllFiles(currentPath, variables);
     }
   }
 }
 
 const copyFiles = async (variables) => {
+  const getSourceDir = (root) =>
+    path.join(__dirname, 'templates', root);
+
   const { appName, template } = variables;
-  
+
   const target = path.join(process.cwd(), appName);
 
   await prepareDir(target);
 
   return Promise.all([
     // common
-    await fs.copy(getFromDir('common'), target),
+    await fs.copy(getSourceDir('common'), target),
     // specific
-    await fs.copy(getFromDir(template), target),
-    // replace Variables
-    replaceVariablesRecursive(target, variables)
+    await fs.copy(getSourceDir(template), target),
+    // replace variables
+    replaceTemplateAllFiles(target, variables)
   ]);
 }
 
@@ -75,7 +78,7 @@ const logPackageScripts = (appName) => {
       console.log(`> ${isYarn ? 'yarn' : 'npm'} run ${chalk.bold(script)}`);
     }
   } catch(_) {
-    return;
+    // just catch
   }
 }
 
@@ -86,7 +89,7 @@ const logSuccess = (appName) => {
   console.log(`> cd ${appName}`);
   console.log(`> ${isYarn ? 'yarn' : 'npm'} install`);
   console.log();
-  logPackageScripts(appName)
+  logPackageScripts(appName);
   console.log();
 }
 
