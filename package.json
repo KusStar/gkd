@@ -1,6 +1,6 @@
 {
   "name": "gkd-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A templates generator",
   "license": "MIT",
   "repository": "kusstar/gkd-cli",
