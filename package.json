@@ -6,14 +6,16 @@
   "repository": "kusstar/gkd-cli",
   "author": "kuss",
   "bin": {
-    "gkd": "cli.js"
+    "gkd": "src/cli.js"
+  },
+  "scripts": {
+    "prettier": "prettier -c --write ./src/**"
   },
   "engines": {
     "node": ">=8"
   },
   "files": [
-    "cli.js",
-    "gkd.js",
+    "src",
     "templates"
   ],
   "keywords": [
