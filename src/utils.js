@@ -10,12 +10,14 @@ const _logPackageScripts = (appName) => {
     const target = path.join(process.cwd(), appName, 'package.json')
     const raw = fs.readFileSync(target, { encoding: 'utf8' })
     const json = JSON.parse(raw)
-    const scripts = Object.keys(json.scripts)
+    const scripts = Object.entries(json.scripts)
     // log
     console.log(chalk.bold.underline.greenBright(`Scripts:`))
     console.log()
-    for (const script of scripts) {
-      console.log(`> ${isYarn ? 'yarn' : 'npm'} run ${chalk.bold(script)}`)
+    for (const [key, value] of scripts) {
+      console.log(`> ${isYarn ? 'yarn' : 'npm'} run ${chalk.bold(key)}`)
+      console.log(`      ${chalk.gray(value)}`)
+      console.log()
     }
   } catch (_) {
     // just catch
