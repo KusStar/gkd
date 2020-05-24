@@ -18,7 +18,6 @@ const cli = meow(
   Examples
       $ gkd --help
       $ gkd app-name -t react-ts-webpack
-      $ gkd app-name -t react-ts-webpack
   `,
   {
     flags: {
