@@ -5,7 +5,9 @@
 ## Installation
 
 ```bash
-$ npm install --global gkd-cli
+$ git clone https://github.com/KusStar/gkd-cli.git
+$ cd gkd-cli
+$ npm link
 ```
 
 ## Usage
