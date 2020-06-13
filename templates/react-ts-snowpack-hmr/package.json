@@ -12,7 +12,7 @@
   },
   "webDependencies": {},
   "devDependencies": {
-    "@snowpack/app-scripts-react": "1.1.4",
+    "@snowpack/app-scripts-react": "1.2.0",
     "@testing-library/jest-dom": "5.10.0",
     "@testing-library/react": "10.2.1",
     "@types/styled-components": "5.1.0",
