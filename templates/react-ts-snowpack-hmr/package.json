@@ -20,7 +20,7 @@
     "prettier": "2.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "snowpack": "2.5.1",
+    "snowpack": "2.5.2",
     "styled-components": "5.1.1",
     "typescript": "3.9.5"
   }
