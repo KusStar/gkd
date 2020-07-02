@@ -22,6 +22,6 @@
     "react-dom": "16.13.1",
     "snowpack": "2.6.3",
     "styled-components": "5.1.1",
-    "typescript": "3.9.5"
+    "typescript": "3.9.6"
   }
 }
