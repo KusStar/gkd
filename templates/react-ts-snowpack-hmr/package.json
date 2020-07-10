@@ -13,7 +13,7 @@
   "webDependencies": {},
   "devDependencies": {
     "@snowpack/app-scripts-react": "1.4.0",
-    "@testing-library/react": "10.4.4",
+    "@testing-library/react": "10.4.5",
     "@testing-library/jest-dom": "5.11.0",
     "@types/styled-components": "5.1.1",
     "jest": "25.5.4",
