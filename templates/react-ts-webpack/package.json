@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config ./build/webpack.dev.js",
-    "build": "webpack --config ./build/webpack.prod.js",
+    "dev": "webpack-dev-server --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js",
     "prettier": "prettier -c --write ./src/**"
   },
   "author": "%AUTHOR%",
