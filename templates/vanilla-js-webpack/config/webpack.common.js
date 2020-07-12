@@ -39,16 +39,16 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '../public/index.html')
     }),
-    new CopyPlugin(
-      {
-        patterns: [
-          {
-            from: path.resolve(__dirname, '../assets'),
-            to: 'assets'
-          }
-        ],
-      }
-    )
+    // new CopyPlugin(
+    //   {
+    //     patterns: [
+    //       {
+    //         from: path.resolve(__dirname, '../assets'),
+    //         to: 'assets'
+    //       }
+    //     ],
+    //   }
+    // )
   ],
   resolve: {
     alias: {

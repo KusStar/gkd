@@ -1,7 +1,7 @@
 const path = require('path')
 const common = require('./webpack.common')
 const webpack = require('webpack')
-const merge = require('webpack-merge')
+const { merge } = require('webpack-merge')
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 
 module.exports = merge(common, {
