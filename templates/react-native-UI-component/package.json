@@ -1,0 +1,15 @@
+{
+  "name": "%NAME%",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "author": {
+    "name": "%AUTHOR%",
+    "url": "%PAGE%"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
