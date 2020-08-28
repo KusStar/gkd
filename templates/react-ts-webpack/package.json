@@ -23,7 +23,7 @@
     "copy-webpack-plugin": "6.0.3",
     "friendly-errors-webpack-plugin": "1.7.0",
     "html-webpack-plugin": "4.3.0",
-    "prettier": "2.0.5",
+    "prettier": "2.1.1",
     "ts-loader": "8.0.2",
     "typescript": "4.0.2",
     "webpack": "4.44.1",
