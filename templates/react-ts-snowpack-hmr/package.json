@@ -15,7 +15,7 @@
     "@snowpack/app-scripts-react": "1.10.0",
     "@testing-library/react": "10.4.9",
     "@testing-library/jest-dom": "5.11.4",
-    "@types/styled-components": "5.1.2",
+    "@types/styled-components": "5.1.3",
     "jest": "25.5.4",
     "prettier": "2.1.1",
     "react": "16.13.1",
