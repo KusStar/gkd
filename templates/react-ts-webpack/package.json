@@ -20,7 +20,7 @@
     "@types/webpack-env": "1.15.3",
     "cache-loader": "4.1.0",
     "clean-webpack-plugin": "3.0.0",
-    "copy-webpack-plugin": "6.1.1",
+    "copy-webpack-plugin": "6.2.0",
     "friendly-errors-webpack-plugin": "1.7.0",
     "html-webpack-plugin": "4.5.0",
     "prettier": "2.1.2",
