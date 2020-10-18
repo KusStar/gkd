@@ -18,8 +18,8 @@
     "@types/styled-components": "5.1.4",
     "jest": "25.5.4",
     "prettier": "2.1.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "snowpack": "2.14.3",
     "styled-components": "5.2.0",
     "typescript": "4.0.3"
