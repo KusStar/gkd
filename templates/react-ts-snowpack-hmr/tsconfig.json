@@ -1,10 +1,23 @@
 {
   "include": ["src", "types"],
-  "exclude": ["node_modules"],
-  "extends": "@snowpack/app-scripts-react/tsconfig.base.json",
   "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
     "baseUrl": "./",
-    "paths": { "*": ["web_modules/.types/*"] },
-    "allowSyntheticDefaultImports": true
+    /* paths - If you configure Snowpack import aliases, add them here. */
+    "paths": {
+      "@app/*": ["src/*"]
+    },
+    /* noEmit - Snowpack builds (emits) files, not tsc. */
+    "noEmit": true,
+    /* Additional Options */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "importsNotUsedAsValues": "error"
   }
 }
