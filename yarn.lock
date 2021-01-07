@@ -486,10 +486,10 @@ map-obj@^4.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.1.0.tgz#b91221b542734b9f14256c0132c897c5d7256fd5"
   integrity sha512-glc9y00wgtwcDmp7GaE/0b0OnxpNJsVf3ael/An6Fe2Q51LLwN1er6sdomLRzz5h0+yMpiYLhWYF5R7HeqVd4g==
 
-meow@8.1.1:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/meow/-/meow-8.1.1.tgz#560a9ef512e88804876547ee6f931788e708161a"
-  integrity sha512-EVR7ANaUu7KPHbH+E/zPyYGZJGhHX1mRHNQZDP8V1Qsriv7G0R6xLxD8L2ssnwobpElwRXT7xXENsNVnFtRQzg==
+meow@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/meow/-/meow-9.0.0.tgz#cd9510bc5cac9dee7d03c73ee1f9ad959f4ea364"
+  integrity sha512-+obSblOQmRhcyBt62furQqRAQpNyWXo8BuQ5bN7dG8wmwQ+vwHKp/rCFD4CrTP8CsDQD1sjoZ94K417XEUk8IQ==
   dependencies:
     "@types/minimist" "^1.2.0"
     camelcase-keys "^6.2.2"
