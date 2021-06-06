@@ -6,7 +6,7 @@
   "repository": "kusstar/gkd-cli",
   "author": "kuss",
   "bin": {
-    "gkd": "src/cli.js"
+    "gkd": "bin/cli.js"
   },
   "scripts": {
     "prettier": "prettier -c --write ./src/**"
