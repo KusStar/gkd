@@ -8,7 +8,7 @@
     "baseUrl": "./",
     /* paths - If you configure Snowpack import aliases, add them here. */
     "paths": {
-      "@app/*": ["src/*"]
+      "@/*": ["src/*"]
     },
     /* noEmit - Snowpack builds (emits) files, not tsc. */
     "noEmit": true,

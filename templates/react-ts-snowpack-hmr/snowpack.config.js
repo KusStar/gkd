@@ -10,6 +10,6 @@ module.exports = {
     '@snowpack/plugin-typescript',
   ],
   alias: {
-    "@app": "./src"
+    "@": "./src"
   },
 };
