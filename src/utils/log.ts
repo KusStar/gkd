@@ -1,11 +1,9 @@
-'use strict'
+import fs from 'fs-extra'
+import path from 'path'
+import chalk from 'chalk'
+import { isYarn } from 'is-npm'
 
-const fs = require('fs-extra')
-const path = require('path')
-const chalk = require('chalk')
-const { isYarn } = require('is-npm')
-
-const _logPackageScripts = (appName) => {
+const _logPackageScripts = (appName: string) => {
   try {
     const target = path.join(process.cwd(), appName, 'package.json')
     const raw = fs.readFileSync(target, { encoding: 'utf8' })
@@ -24,7 +22,7 @@ const _logPackageScripts = (appName) => {
   }
 }
 
-const logSuccess = (appName) => {
+const logSuccess = (appName: string) => {
   console.log()
   console.log(chalk.bold.underline.greenBright(`Start:`))
   console.log()
@@ -35,7 +33,7 @@ const logSuccess = (appName) => {
   console.log()
 }
 
-const logRequireArgs = (...args) => {
+const logRequireArgs = (...args: string[]) => {
   for (const arg of args) {
     console.log()
     console.log(`${chalk.red('X')} ${chalk.cyan(arg)} is required`)
@@ -43,7 +41,7 @@ const logRequireArgs = (...args) => {
   }
 }
 
-module.exports = {
+export {
   logSuccess,
   logRequireArgs,
 }

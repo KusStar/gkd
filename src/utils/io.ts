@@ -1,16 +1,17 @@
-const fs = require('fs-extra')
-const path = require('path')
+import fs from 'fs-extra'
+import path from 'path'
+import type { Context } from '../gkd'
 
-const getSourceDir = (root) => path.join(__dirname, '../../templates', root)
+const getSourceDir = (root: string) => path.join(__dirname, '../../templates', root)
 
-const prepareDir = async (dir) => {
+const prepareDir = async (dir: string) => {
   if (fs.existsSync(dir)) {
     await fs.remove(dir)
   }
   await fs.mkdir(dir)
 }
 
-const replaceTemplateVariables = async (from, variables) => {
+const replaceTemplateVariables = async (from: string, ctx: Context) => {
   const source = await fs.readFile(from, 'utf8')
 
   const variablesRegex = /%NAME%|%AUTHOR%|%PAGE%|%YEAR%/g
@@ -18,32 +19,32 @@ const replaceTemplateVariables = async (from, variables) => {
     return
   }
 
-  if (typeof variables === 'object') {
-    const { appName, author } = variables
+  if (typeof ctx === 'object') {
+    const { appName, author } = ctx
     const generatedSource = source
       .replace(/%NAME%/g, appName)
       .replace(/%AUTHOR%/g, author.name)
       .replace(/%PAGE%/g, author.page)
-      .replace(/%YEAR%/g, new Date().getFullYear())
+      .replace(/%YEAR%/g, new Date().getFullYear().toString())
 
     await fs.writeFile(from, generatedSource)
   }
 }
 
-const replaceTemplateAllFiles = async (target, variables) => {
+const replaceTemplateAllFiles = async (target: string, ctx: Context) => {
   const res = await fs.readdir(target)
   for (const current of res) {
     const currentPath = path.join(target, current)
     const isFile = fs.lstatSync(currentPath).isFile()
     if (isFile) {
-      replaceTemplateVariables(currentPath, variables)
+      replaceTemplateVariables(currentPath, ctx)
     } else {
-      replaceTemplateAllFiles(currentPath, variables)
+      replaceTemplateAllFiles(currentPath, ctx)
     }
   }
 }
 
-const copyFiles = async (ctx) => {
+const copyFiles = async (ctx: Context) => {
   const { appName, template } = ctx
 
   const target = path.join(process.cwd(), appName)
@@ -55,12 +56,12 @@ const copyFiles = async (ctx) => {
     await fs.copy(getSourceDir('common'), target),
     // specific
     await fs.copy(getSourceDir(template), target),
-    // replace variables
+    // replace ctx
     replaceTemplateAllFiles(target, ctx),
   ])
 }
 
-module.exports = {
+export {
   copyFiles,
   getSourceDir,
 }
