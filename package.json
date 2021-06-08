@@ -10,7 +10,7 @@
     "pub": "yarn build && lerna publish --no-push"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "4.0.0"
   },
   "workspaces": [
     "packages/*"
