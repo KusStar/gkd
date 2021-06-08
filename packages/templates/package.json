@@ -1,0 +1,16 @@
+{
+  "name": "@kuss/gkd-templates",
+  "version": "2.0.0",
+  "license": "MIT",
+  "author": "KusStar",
+  "main": "./index.js",
+  "keywords": [
+    "templates"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "templates"
+  ]
+}

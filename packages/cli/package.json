@@ -1,0 +1,46 @@
+{
+  "name": "@kuss/gkd-cli",
+  "version": "2.0.0",
+  "license": "MIT",
+  "author": "KusStar",
+  "bin": {
+    "gkd": "bin/cli.js"
+  },
+  "scripts": {
+    "prettier": "prettier -c --write ./src/**",
+    "dev": "tsc --build --watch",
+    "prebuild": "rimraf ./dist",
+    "build": "tsc --build"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "templates",
+    "cli"
+  ],
+  "dependencies": {
+    "@kuss/gkd-templates": "^2.0.0",
+    "chalk": "4.1.1",
+    "enquirer": "2.3.6",
+    "fs-extra": "10.0.0",
+    "is-npm": "5.0.0",
+    "listr": "0.14.3",
+    "meow": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "9.0.11",
+    "@types/listr": "0.14.3",
+    "@types/node": "15.12.1",
+    "prettier": "2.3.1",
+    "rimraf": "3.0.2",
+    "typescript": "4.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ]
+}

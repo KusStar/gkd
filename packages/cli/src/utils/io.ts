@@ -1,8 +1,9 @@
 import fs from 'fs-extra'
 import path from 'path'
 import type { Context } from '../gkd'
+import { getTemplateDir } from '@kuss/gkd-templates'
 
-const getSourceDir = (root: string) => path.join(__dirname, '../../templates', root)
+const getSourceDir = getTemplateDir
 
 const prepareDir = async (dir: string) => {
   if (fs.existsSync(dir)) {

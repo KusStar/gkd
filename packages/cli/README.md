@@ -1,4 +1,4 @@
-# gkd-cli
+# @kuss/gkd-cli
 
 > A template generator.
 
@@ -41,7 +41,3 @@ Scripts:
 
 - [create-snowpack-app](https://github.com/pikapkg/create-snowpack-app)
 - [create-ink-app](https://github.com/vadimdemedes/create-ink-app)
-
-## License
-
-[MIT](LICENSE)
