@@ -29,7 +29,7 @@
     "meow": "9.0.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "9.0.11",
+    "@types/fs-extra": "9.0.12",
     "@types/listr": "0.14.3",
     "@types/node": "15.12.1",
     "prettier": "2.3.2",
