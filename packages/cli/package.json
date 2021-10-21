@@ -1,6 +1,6 @@
 {
   "name": "@kuss/gkd-cli",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "MIT",
   "author": "KusStar",
   "bin": {
@@ -20,7 +20,7 @@
     "cli"
   ],
   "dependencies": {
-    "@kuss/gkd-templates": "^2.0.1",
+    "@kuss/gkd-templates": "^2.1.0",
     "chalk": "4.1.1",
     "enquirer": "2.3.6",
     "fs-extra": "10.0.0",
