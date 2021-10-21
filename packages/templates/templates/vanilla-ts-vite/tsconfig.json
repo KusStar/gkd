@@ -15,7 +15,6 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"],
-      "@desktop/*": ["cross/desktop/src/*"],
     },
     "skipLibCheck": true
   },
