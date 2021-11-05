@@ -1,3 +1,1 @@
-# @kuss/gkd-templates
-
-> Templates
+## Templates
