@@ -9,8 +9,9 @@
     "declaration": true,
   },
   "exclude": [
-    "**/test",
-    "**/templates",
-    "**/node_modules"
+    "**/test/**",
+    "**/templates/**",
+    "**/node_modules/**",
+    "**/dist/**"
   ]
 }
