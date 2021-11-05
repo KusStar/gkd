@@ -3,21 +3,9 @@ import chalk from 'chalk'
 import { logSuccess } from './utils/log'
 import { validateArgs } from './utils/validator'
 import { copyFiles } from './utils/io'
+import { Flags } from './types'
 
-
-export interface Flags {
-  template: string;
-  author: {
-      name: string;
-      page: string;
-  };
-}
-
-export interface Context extends Flags {
-  appName: string;
-}
-
-export default async (input: string[], flags: Flags) => {
+export async function gkd(input: string[], flags: Flags) {
   const ctx = await validateArgs(input[0], flags)
   const { appName, template } = ctx
   const tasks = new Listr([

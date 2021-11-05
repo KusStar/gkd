@@ -1,9 +1,9 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 import { prompt } from 'enquirer'
 import { logRequireArgs } from './log'
-import { getSourceDir } from './io'
-import type { Flags } from '../gkd'
+import { getAllTemplates } from './utils'
+import { Flags } from '../types'
 
 const checkOverwritten = async (appName: string) => {
   const target = path.join(process.cwd(), appName)
@@ -20,19 +20,13 @@ const checkOverwritten = async (appName: string) => {
   }
 }
 
-const getAllTemplates = () => {
-  return fs
-    .readdirSync(getSourceDir(''))
-    .filter((template) => template !== 'common')
-}
-
 const validateArgs = async (appName: string, flags: Flags) => {
   if (!appName) {
     logRequireArgs('app-name')
     process.exit(1)
   }
   await checkOverwritten(appName)
-  const allTemplates = getAllTemplates()
+  const allTemplates = await getAllTemplates()
   if (!allTemplates.includes(flags.template)) {
     const response = await prompt<{ template: string }>({
       type: 'select',

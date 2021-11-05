@@ -2,7 +2,7 @@
 'use strict'
 
 const meow = require('meow')
-const gkd = require('../dist/gkd').default
+const { gkd } = require('../dist')
 
 const cli = meow(
   `

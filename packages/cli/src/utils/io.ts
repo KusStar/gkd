@@ -1,19 +1,17 @@
-import fs from 'fs-extra'
-import path from 'path'
-import type { Context } from '../gkd'
-import { getTemplateDir } from '@kuss/gkd-templates'
-
-const getSourceDir = getTemplateDir
+import fs from 'node:fs'
+import path from 'node:path'
+import { downloadTemplate } from './utils'
+import { Context } from '../types'
 
 const prepareDir = async (dir: string) => {
   if (fs.existsSync(dir)) {
-    await fs.remove(dir)
+    await fs.rmSync(dir, { force: true, recursive: true })
   }
-  await fs.mkdir(dir)
+  await fs.mkdirSync(dir)
 }
 
 const replaceTemplateVariables = async (from: string, ctx: Context) => {
-  const source = await fs.readFile(from, 'utf8')
+  const source = fs.readFileSync(from, 'utf8')
 
   const variablesRegex = /%NAME%|%AUTHOR%|%PAGE%|%YEAR%/g
   if (!source.match(variablesRegex)) {
@@ -28,12 +26,12 @@ const replaceTemplateVariables = async (from: string, ctx: Context) => {
       .replace(/%PAGE%/g, author.page)
       .replace(/%YEAR%/g, new Date().getFullYear().toString())
 
-    await fs.writeFile(from, generatedSource)
+    fs.writeFileSync(from, generatedSource)
   }
 }
 
 const replaceTemplateAllFiles = async (target: string, ctx: Context) => {
-  const res = await fs.readdir(target)
+  const res = fs.readdirSync(target)
   for (const current of res) {
     const currentPath = path.join(target, current)
     const isFile = fs.lstatSync(currentPath).isFile()
@@ -54,9 +52,9 @@ const copyFiles = async (ctx: Context) => {
 
   return Promise.all([
     // common
-    await fs.copy(getSourceDir('common'), target),
+    downloadTemplate('common', target),
     // specific
-    await fs.copy(getSourceDir(template), target),
+    downloadTemplate(template, target),
     // replace ctx
     replaceTemplateAllFiles(target, ctx),
   ])
@@ -64,5 +62,4 @@ const copyFiles = async (ctx: Context) => {
 
 export {
   copyFiles,
-  getSourceDir,
 }

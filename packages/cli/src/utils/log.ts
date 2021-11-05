@@ -1,7 +1,6 @@
-import fs from 'fs-extra'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 import chalk from 'chalk'
-import { isYarn } from 'is-npm'
 
 const _logPackageScripts = (appName: string) => {
   try {
@@ -13,7 +12,7 @@ const _logPackageScripts = (appName: string) => {
     console.log(chalk.bold.underline.greenBright(`Scripts:`))
     console.log()
     for (const [key, value] of scripts) {
-      console.log(`> ${isYarn ? 'yarn' : 'npm'} run ${chalk.bold(key)}`)
+      console.log(`> npm run ${chalk.bold(key)}`)
       console.log(`      ${chalk.gray(value)}`)
       console.log()
     }
