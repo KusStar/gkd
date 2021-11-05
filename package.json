@@ -7,12 +7,9 @@
   "private": true,
   "scripts": {
     "build": "lerna run build",
-    "pub": "yarn build && lerna publish --no-push"
+    "pub": "pnpm publish"
   },
   "devDependencies": {
     "lerna": "4.0.0"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }

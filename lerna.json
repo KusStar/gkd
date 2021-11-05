@@ -8,7 +8,5 @@
       "registry": "https://registry.npmjs.org/"
     }
   },
-  "version": "2.1.2",
-  "npmClient": "yarn",
-  "useWorkspaces": true
+  "version": "2.1.2"
 }
