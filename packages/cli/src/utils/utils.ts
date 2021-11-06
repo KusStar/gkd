@@ -4,7 +4,7 @@ import { downloadWithCheck } from 'gdl'
 
 export const CACHE_DIR = path.join(__dirname, '../.cache')
 
-export const TEMPLATES_URL = 'https://github.com/KusStar/gkd/tree/master/packages/templates'
+export const TEMPLATES_URL = 'https://github.com/KusStar/gkd/tree/master/packages/templates/src'
 
 export const downloadTemplate = async (name: string, target: string) => {
   await downloadWithCheck(`${TEMPLATES_URL}/${name}`, target)
