@@ -11,6 +11,9 @@ export const downloadTemplate = async (name: string, target: string) => {
 }
 
 export const getAllTemplates = async () => {
+  if (!fs.existsSync(CACHE_DIR)) {
+    fs.mkdirSync(CACHE_DIR, { recursive: true })
+  }
   await download(TEMPLATES_URL, CACHE_DIR)
   return fs
     .readdirSync(CACHE_DIR)

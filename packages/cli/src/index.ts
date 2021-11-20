@@ -1,4 +1,3 @@
-import chalk from 'chalk'
 import meow from 'meow'
 import { logSuccess } from './utils/log'
 import { validateArgs } from './utils/validator'
