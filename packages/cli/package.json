@@ -1,6 +1,6 @@
 {
   "name": "@kuss/gkd-cli",
-  "version": "2.3.3",
+  "version": "2.4.0",
   "license": "MIT",
   "author": "KusStar",
   "bin": {
