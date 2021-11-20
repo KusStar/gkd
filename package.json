@@ -10,6 +10,6 @@
     "ci:publish": "changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.17.0"
+    "@changesets/cli": "2.18.0"
   }
 }
