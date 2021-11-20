@@ -1,5 +1,17 @@
 # @kuss/gkd-cli
 
+## 2.4.1
+
+### Patch Changes
+
+- [`3d1bfc8`](https://github.com/KusStar/gkd/commit/3d1bfc80a12a489b6948accb4bdf8fb65649ce8c) Thanks [@KusStar](https://github.com/KusStar)! - fix: cannot cd into CACHE_DIR
+
+## 2.4.0
+
+### Minor Changes
+
+- [`2a861d2`](https://github.com/KusStar/gkd/commit/2a861d2211efcc30c1cb67de5fee62f68a5b1fac): feat: better DX
+
 ## 2.3.1
 
 ### Patch Changes
