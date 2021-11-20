@@ -29,7 +29,7 @@ const logSuccess = (appName: string) => {
   console.log(`> ls -al`)
   console.log()
   _logPackageScripts(appName)
-  console.log()
+  console.log(`> GKD: Generated [${appName}] done`)
 }
 
 const logRequireArgs = (...args: string[]) => {

@@ -43,7 +43,7 @@ const replaceTemplateAllFiles = async (target: string, ctx: Context) => {
   }
 }
 
-const copyFiles = async (ctx: Context) => {
+const startDownload = async (ctx: Context) => {
   const { appName, template } = ctx
 
   const target = path.join(process.cwd(), appName)
@@ -61,5 +61,5 @@ const copyFiles = async (ctx: Context) => {
 }
 
 export {
-  copyFiles,
+  startDownload,
 }
