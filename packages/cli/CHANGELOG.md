@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.0.0
+
+### Major Changes
+
+- [`6fccf55`](https://github.com/KusStar/gkd/commit/6fccf555027c7af24f55c5ed9144cf63ace8fcbb) Thanks [@KusStar](https://github.com/KusStar)! - refactor: gkd-cli to commands style, with init, generate, config
+
 ## 2.4.1
 
 ### Patch Changes
