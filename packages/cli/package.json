@@ -35,7 +35,8 @@
   },
   "files": [
     "bin",
-    "dist"
+    "dist",
+    "config.json"
   ],
   "dependencies": {
     "dot-prop": "^6.0.1",
