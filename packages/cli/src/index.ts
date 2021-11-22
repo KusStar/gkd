@@ -47,11 +47,7 @@ export const createCli = () => {
         config(argv.operate, argv.key as ConfigKey, argv.value)
       }
     })
-    .option('verbose', {
-      alias: 'v',
-      type: 'boolean',
-      description: 'Run with verbose logging'
-    })
     .demandCommand(1, 'You need to provide a command')
+    .version()
     .parse()
 }
