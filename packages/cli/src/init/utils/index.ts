@@ -1,3 +1,4 @@
+import ejs from 'ejs'
 import { prompt } from 'enquirer'
 import { download } from 'gdl'
 import fs from 'node:fs'
@@ -81,21 +82,12 @@ const prepareDir = async (dir: string) => {
 const replaceTemplateVariables = async (from: string, ctx: Context) => {
   const source = fs.readFileSync(from, 'utf8')
 
-  const variablesRegex = /%NAME%|%AUTHOR%|%PAGE%|%YEAR%/g
-  if (!source.match(variablesRegex)) {
-    return
-  }
+  const output = ejs.render(source, {
+    ...ctx,
+    year: new Date().getFullYear().toString()
+  })
 
-  if (typeof ctx === 'object') {
-    const { name, author } = ctx
-    const generatedSource = source
-      .replace(/%NAME%/g, name)
-      .replace(/%AUTHOR%/g, author.name)
-      .replace(/%PAGE%/g, author.page)
-      .replace(/%YEAR%/g, new Date().getFullYear().toString())
-
-    fs.writeFileSync(from, generatedSource)
-  }
+  fs.writeFileSync(from, output)
 }
 
 const replaceTemplateAllFiles = async (target: string, ctx: Context) => {
@@ -120,9 +112,9 @@ export const startDownload = async (ctx: Context) => {
 
   return Promise.all([
     // common
-    downloadTemplate('common', target),
+    await downloadTemplate('common', target),
     // specific
-    downloadTemplate(template, target),
+    await downloadTemplate(template, target),
     // replace ctx
     replaceTemplateAllFiles(target, ctx)
   ])

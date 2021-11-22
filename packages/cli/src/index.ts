@@ -1,52 +1,57 @@
-import meow from 'meow'
-import { logSuccess } from './utils/log'
-import { validateArgs } from './utils/validator'
-import { startDownload } from './utils/io'
-import { Flags } from './types'
+import { hideBin } from 'yargs/helpers'
+import yargs from 'yargs/yargs'
 
-export async function gkd(input: string[], flags: Flags) {
-  const ctx = await validateArgs(input[0], flags)
-  const { appName } = ctx
-
-  await startDownload(ctx)
-
-  logSuccess(appName)
-}
+import { config, ConfigKey } from './config'
+import { init } from './init'
 
 export const createCli = () => {
-  const cli = meow(
-    `
-    Usage
-        $ gkd app-name [options]
-
-    Options
-        --help
-        --template -t
-        --author.name
-        --author.page
-
-    Examples
-        $ gkd --help
-        $ gkd app-name -t react-ts-webpack
-    `,
-    {
-      flags: {
-        template: {
-          type: 'string',
-          alias: 't',
-        },
-        ['author.name']: {
-          type: 'string',
-          default: 'KusStar',
-        },
-        ['author.page']: {
-          type: 'string',
-          default: 'https://github.com/KusStar',
-        },
-      },
-    }
-  )
-
-  // @ts-ignore
-  gkd(cli.input, cli.flags)
+  yargs(hideBin(process.argv))
+    .scriptName('gkd')
+    .command(['init <name>', 'create'], 'Initial with template', (Argv) => {
+      return Argv
+        .positional('name', {
+          describe: 'Name to init',
+          type: 'string'
+        })
+    }, (argv) => {
+      if (argv.name) {
+        init(argv.name)
+      }
+    })
+    .command(['generate <to> <from>', 'gen'], 'Generate template from source', (Argv) => {
+      return Argv
+        .positional('to', {
+          describe: 'Path to generated template',
+          type: 'string'
+        })
+        .positional('from', {
+          describe: 'Path to source path',
+          type: 'string'
+        })
+    }, (argv) => {
+      console.log(argv.to, argv.from)
+    })
+    .command('config <operate> [key] [value]', 'Get or set config', (Argv) => {
+      return Argv
+        .positional('operate', {
+          type: 'string'
+        })
+        .positional('key', {
+          type: 'string'
+        })
+        .positional('value', {
+          type: 'string'
+        })
+    }, (argv) => {
+      if (argv.operate) {
+        config(argv.operate, argv.key as ConfigKey, argv.value)
+      }
+    })
+    .option('verbose', {
+      alias: 'v',
+      type: 'boolean',
+      description: 'Run with verbose logging'
+    })
+    .demandCommand(1, 'You need to provide a command')
+    .parse()
 }
