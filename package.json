@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "2.18.0",
-    "@kuss/eslint-config-vanilla": "^2.4.0",
-    "eslint": "^8.3.0"
+    "@kuss/eslint-config-vanilla": "2.4.0",
+    "eslint": "8.3.0"
   }
 }
