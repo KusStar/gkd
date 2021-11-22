@@ -7,7 +7,9 @@
   "private": true,
   "scripts": {
     "ci:version": "changeset version",
-    "ci:publish": "changeset publish"
+    "ci:publish": "changeset publish",
+    "lint": "eslint ./",
+    "lint:fix": "npm run lint -- --fix"
   },
   "devDependencies": {
     "@changesets/cli": "2.18.0",
