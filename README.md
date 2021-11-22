@@ -10,7 +10,7 @@
 ## Installation
 
 - Install `@kuss/gkd-cli` globally.
-```console
+```sh
 $ npm i -g @kuss/gkd-cli
 ```
 
@@ -18,31 +18,30 @@ $ npm i -g @kuss/gkd-cli
 
 ## Usage
 
-```console
-$ gkd app-name [options]
-$ gkd --help
+```shell
+$ gkd help
+gkd <command>
+
+Commands:
+  gkd init <name>                     Initial with template    [aliases: create]
+  gkd generate <to> <from>            Generate template from source
+                                                                  [aliases: gen]
+  gkd config <operate> [key] [value]  Get or set config
+
+Options:
+      --help     Show help                                             [boolean]
+      --version  Show version number                                   [boolean]
+  -v, --verbose  Run with verbose logging                              [boolean]
 ```
 
 ## Example
 
-```console
-$ gkd test -t react-ts-webpack
-
-  ✔ Copy files
-  ✔ Success
-
-Installation:
-
-> cd test
-> npm install
-
-Scripts:
-
-> npm run dev
-> npm run build
-> npm run prettier
+```sh
+# gkd init, select template and wait for fetching
+$ gkd init hello-gkd
+# CD into it
+$ cd hello-gkd
 ```
-
 ## Thanks
 
 - [create-snowpack-app](https://github.com/pikapkg/create-snowpack-app)
