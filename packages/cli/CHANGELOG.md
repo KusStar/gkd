@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.0.1
+
+### Patch Changes
+
+- fix: missing config.json and yargs version flag
+
 ## 3.0.0
 
 ### Major Changes
