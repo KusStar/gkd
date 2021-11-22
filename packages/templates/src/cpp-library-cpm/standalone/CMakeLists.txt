@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
 
-project(%NAME%_standalone
+project(<%- name %>_standalone
   LANGUAGES CXX
 )
 
@@ -9,7 +9,7 @@ project(%NAME%_standalone
 include(../build/cmake/CPM.cmake)
 
 CPMAddPackage(
-  NAME %NAME%
+  NAME <%- name %>
   SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/..
 )
 
@@ -17,11 +17,11 @@ CPMAddPackage(
 
 file(GLOB sources CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
 
-add_executable(%NAME%_standalone ${sources})
+add_executable(<%- name %>_standalone ${sources})
 
-set_target_properties(%NAME%_standalone PROPERTIES
+set_target_properties(<%- name %>_standalone PROPERTIES
   CXX_STANDARD 11
   OUTPUT_NAME "run"
 )
 
-target_link_libraries(%NAME%_standalone %NAME%)
+target_link_libraries(<%- name %>_standalone <%- name %>)

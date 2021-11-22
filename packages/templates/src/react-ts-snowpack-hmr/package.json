@@ -1,7 +1,7 @@
 {
-  "name": "%NAME%",
+  "name": "<%- name %>",
   "version": "1.0.0",
-  "author": "%AUTHOR%",
+  "author": "<%- author.name %>",
   "license": "MIT",
   "scripts": {
     "start": "snowpack dev",

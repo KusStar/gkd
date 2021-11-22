@@ -1,11 +1,11 @@
 {
-  "name": "%NAME%",
+  "name": "<%- name %>",
   "version": "1.0.0",
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel --prod"
   },
-  "author": "%AUTHOR%",
+  "author": "<%- author.name %>",
   "license": "MIT",
   "devDependencies": {
     "@vercel/node": "1.12.1"

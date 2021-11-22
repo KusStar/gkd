@@ -1,11 +1,11 @@
 {
-  "name": "%NAME%",
+  "name": "<%- name %>",
   "version": "1.0.0",
   "description": "",
   "main": "index",
   "author": {
-    "name": "%AUTHOR%",
-    "url": "%PAGE%"
+    "name": "<%- author.name %>",
+    "url": "<%- author.page %>"
   },
   "license": "MIT",
   "repository": {

@@ -1,5 +1,5 @@
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 app.innerHTML = `
-  <h1>Hello %NAME%!</h1>
+  <h1>Hello <%- name %>!</h1>
 `

@@ -1,11 +1,11 @@
 {
-  "name": "%NAME%",
+  "name": "<%- name %>",
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve --config ./config/webpack.dev.js",
     "build": "webpack --config ./config/webpack.prod.js"
   },
-  "author": "%AUTHOR%",
+  "author": "<%- author.name %>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {

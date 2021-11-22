@@ -1,1 +1,1 @@
-console.log("Hello, %NAME%")
+console.log("Hello, <%- name %>")

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
 
-project(%NAME%
+project(<%- name %>
   VERSION 0.1.0
   LANGUAGES CXX
 )
@@ -31,13 +31,13 @@ FILE(GLOB_RECURSE headers CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/include
 # FILE(GLOB_RECURSE sources CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp")
 
 # ---- Create library ----
-add_library(%NAME% INTERFACE)
-set_target_properties(%NAME% PROPERTIES INTERFACE_COMPILE_FEATURES cxx_std_11)
+add_library(<%- name %> INTERFACE)
+set_target_properties(<%- name %> PROPERTIES INTERFACE_COMPILE_FEATURES cxx_std_11)
 
-target_compile_options(%NAME% INTERFACE "$<$<BOOL:${MSVC}>:/permissive->")
+target_compile_options(<%- name %> INTERFACE "$<$<BOOL:${MSVC}>:/permissive->")
 
 # ---- Link library ----
-target_include_directories(%NAME%
+target_include_directories(<%- name %>
   INTERFACE
     $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include/${PROJECT_NAME}-${PROJECT_VERSION}>

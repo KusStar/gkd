@@ -1,5 +1,5 @@
 {
-  "name": "%NAME%",
+  "name": "<%- name %>",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "build": "webpack --config ./config/webpack.prod.js",
     "prettier": "prettier -c --write ./src/**"
   },
-  "author": "%AUTHOR%",
+  "author": "<%- author.name %>",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.0",
