@@ -2,6 +2,7 @@ import { hideBin } from 'yargs/helpers'
 import yargs from 'yargs/yargs'
 
 import { config, ConfigKey } from './config'
+import { generate } from './generate'
 import { init } from './init'
 
 export const createCli = () => {
@@ -28,8 +29,17 @@ export const createCli = () => {
           describe: 'Path to source path',
           type: 'string'
         })
+        .option('ignore', {
+          alias: 'i',
+          describe: 'Ignore files, patterns are like: -i README.md LICENSE',
+          type: 'array'
+        })
     }, (argv) => {
-      console.log(argv.to, argv.from)
+      if (argv.to && argv.from) {
+        generate(argv.to, argv.from, {
+          ignore: argv.ignore?.map(it => it.toString())
+        })
+      }
     })
     .command('config <operate> [key] [value]', 'Get or set config', (Argv) => {
       return Argv
