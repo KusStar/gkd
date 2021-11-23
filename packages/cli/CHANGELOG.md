@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.1.1
+
+### Patch Changes
+
+- fix: build release dist
+
 ## 3.1.0
 
 ### Minor Changes
