@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.1.0
+
+### Minor Changes
+
+- feat: gkd-cli command -> generate
+
 ## 3.0.1
 
 ### Patch Changes
