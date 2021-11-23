@@ -6,6 +6,7 @@ import path from 'node:path'
 import ora from 'ora'
 
 import { loadConfig } from '../../config'
+import { checkOverwritten } from '../../shared'
 import { Context } from '../types'
 
 export const CACHE_DIR = path.join(__dirname, '../.cache')
@@ -24,28 +25,6 @@ export const getAllTemplates = async () => {
   return fs
     .readdirSync(CACHE_DIR)
     .filter((template) => template !== 'common')
-}
-
-const checkOverwritten = async (name: string) => {
-  const SKIP = 'gkd: No overwrite, skip'
-  const target = path.join(process.cwd(), name)
-  if (fs.existsSync(target)) {
-    try {
-      const { shouldOverwrite } = await prompt<{ shouldOverwrite: boolean }>({
-        type: 'confirm',
-        name: 'shouldOverwrite',
-        message: `${name} already exists, overwrite it?`,
-        initial: 'y'
-      })
-      if (!shouldOverwrite) {
-        console.log(SKIP)
-        process.exit(1)
-      }
-    } catch (e) {
-      console.log(SKIP)
-      process.exit(1)
-    }
-  }
 }
 
 export const initContext = async (name: string): Promise<Context> => {
@@ -84,6 +63,7 @@ const replaceTemplateVariables = async (from: string, ctx: Context) => {
 
   const output = ejs.render(source, {
     ...ctx,
+    version: '0.0.1',
     year: new Date().getFullYear().toString()
   })
 
