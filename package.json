@@ -7,8 +7,8 @@
   "private": true,
   "scripts": {
     "ci:version": "changeset version",
-    "preci:publish": "pnpm build --filter @kuss/gkd-cli",
-    "ci:publish": "changeset publish",
+    "build:cli": "pnpm build --filter @kuss/gkd-cli",
+    "ci:publish": "npm run build:cli && changeset publish",
     "lint": "eslint ./",
     "lint:fix": "npm run lint -- --fix"
   },

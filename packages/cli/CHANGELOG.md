@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.1.2
+
+### Patch Changes
+
+- fix: miss release dist
+
 ## 3.1.1
 
 ### Patch Changes
