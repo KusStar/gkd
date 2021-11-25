@@ -1,0 +1,17 @@
+{
+  "name": "<%- name %>",
+  "version": "<%- version %>",
+  "private": true,
+  "keywords": [
+  ],
+  "homepage": "<%- author.page %>/<%- name %>#readme",
+  "author": "<%- author.name %> (<%- author.page %>)",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "ci:publish": "changeset publish",
+    "ci:version": "changeset version"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.17.0"
+  }
+}
