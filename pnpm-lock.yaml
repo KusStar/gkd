@@ -24,7 +24,7 @@ importers:
       dot-prop: 6.0.1
       ejs: 3.1.6
       enquirer: 2.3.6
-      gdl: 1.3.2
+      gdl: 1.4.2
       ignore: 5.1.9
       ora: 6.0.1
       rimraf: 3.0.2
@@ -45,7 +45,7 @@ importers:
       '@vercel/ncc': 0.32.0
       chalk: 4.1.2
       enquirer: 2.3.6
-      gdl: 1.3.2
+      gdl: 1.4.2
       ora: 6.0.1
       rimraf: 3.0.2
       typescript: 4.5.2
@@ -1419,8 +1419,8 @@ packages:
     resolution: {integrity: sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=}
     dev: true
 
-  /gdl/1.3.2:
-    resolution: {integrity: sha512-VpL7SBuwafuUZDvvHrUcsGtILPj/7kg4HzJqnp585JJXfQRBgb+jgYdTxfwm63slRYwUwg0Ibix8LFM41n39MQ==}
+  /gdl/1.4.2:
+    resolution: {integrity: sha512-3eOC35iVWz8DZkt6uKDPodYxYVIBtYHFUj9T4c96TeD8WAXIUQXzzG2W+281B+LIT1cRzSUMiR0hb3ePI1mkyw==}
     hasBin: true
     dev: true
 
