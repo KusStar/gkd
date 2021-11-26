@@ -14,7 +14,7 @@ importers:
 
   packages/cli:
     specifiers:
-      '@changesets/changelog-github': 0.4.1
+      '@changesets/changelog-github': 0.4.2
       '@types/ejs': 3.1.0
       '@types/listr': 0.14.4
       '@types/node': 16.11.10
@@ -37,7 +37,7 @@ importers:
       ignore: 5.1.9
       sort-package-json: 1.53.1
     devDependencies:
-      '@changesets/changelog-github': 0.4.1
+      '@changesets/changelog-github': 0.4.2
       '@types/ejs': 3.1.0
       '@types/listr': 0.14.4
       '@types/node': 16.11.10
@@ -110,11 +110,11 @@ packages:
       semver: 5.7.1
     dev: true
 
-  /@changesets/changelog-github/0.4.1:
-    resolution: {integrity: sha512-WK9DzS3i0wa2doEnOr4sm/FMnNtxzCCAKP7dEcWvhYkgXYX5R6jmfHAcDstmjAhiuvbhoHYom4MOC1tIzgwnfA==}
+  /@changesets/changelog-github/0.4.2:
+    resolution: {integrity: sha512-qq8lJcq91ki7UT0fIfIcn5Yy7GJj19TmkLmGZ24/wEfxcD/nHHoTNRoi6nPt+Htf7qEudKxXLzQLi41B7Mt2vg==}
     dependencies:
       '@changesets/get-github-info': 0.5.0
-      '@changesets/types': 4.0.1
+      '@changesets/types': 4.0.2
       dotenv: 8.6.0
     dev: true
 
@@ -254,6 +254,10 @@ packages:
 
   /@changesets/types/4.0.1:
     resolution: {integrity: sha512-zVfv752D8K2tjyFmxU/vnntQ+dPu+9NupOSguA/2Zuym4tVxRh0ylArgKZ1bOAi2eXfGlZMxJU/kj7uCSI15RQ==}
+    dev: true
+
+  /@changesets/types/4.0.2:
+    resolution: {integrity: sha512-OeDaB7D+WVy/ErymPzFm58IeGvz4DOl+oedyZETfnkfMezF/Uhrm1Ub6MHrO5LcAaQTW+ptDmr0fmaVyoTxgHw==}
     dev: true
 
   /@changesets/write/0.1.5:
