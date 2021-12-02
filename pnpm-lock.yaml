@@ -19,7 +19,7 @@ importers:
       '@types/listr': 0.14.4
       '@types/node': 16.11.11
       '@types/yargs': 17.0.7
-      '@vercel/ncc': 0.32.0
+      '@vercel/ncc': 0.33.0
       chalk: 5.0.0
       dot-prop: 6.0.1
       ejs: 3.1.6
@@ -42,7 +42,7 @@ importers:
       '@types/listr': 0.14.4
       '@types/node': 16.11.11
       '@types/yargs': 17.0.7
-      '@vercel/ncc': 0.32.0
+      '@vercel/ncc': 0.33.0
       chalk: 5.0.0
       enquirer: 2.3.6
       gdl: 1.4.2
@@ -250,10 +250,6 @@ packages:
       chalk: 2.4.2
       fs-extra: 7.0.1
       p-filter: 2.1.0
-    dev: true
-
-  /@changesets/types/4.0.1:
-    resolution: {integrity: sha512-zVfv752D8K2tjyFmxU/vnntQ+dPu+9NupOSguA/2Zuym4tVxRh0ylArgKZ1bOAi2eXfGlZMxJU/kj7uCSI15RQ==}
     dev: true
 
   /@changesets/types/4.0.2:
@@ -541,8 +537,8 @@ packages:
       eslint-visitor-keys: 3.1.0
     dev: true
 
-  /@vercel/ncc/0.32.0:
-    resolution: {integrity: sha512-S/SxTHHTbBQSOutpgnqEn+LyTfZcq9xMRAnzY05HpGVjxjmfmvg6SWZZkbW/GJIFznMmHGeGOrI1MEBD7efIkA==}
+  /@vercel/ncc/0.33.0:
+    resolution: {integrity: sha512-m21HzXD+L/YHoJTwyCCyGBXD0O2L4KR/Y6SSsS4qvRlz3NAYsiiYahzOsgfWEt4PJxpPVCMGiuWzsvb2tycmyA==}
     hasBin: true
     dev: true
 
