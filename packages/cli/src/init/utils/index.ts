@@ -4,12 +4,13 @@ import { download } from 'gdl'
 import fs from 'node:fs'
 import path from 'node:path'
 import ora from 'ora'
+import temp from 'temp'
 
 import { loadConfig } from '../../config'
 import { checkOverwritten } from '../../shared'
 import { Context } from '../types'
 
-export const CACHE_DIR = path.join(__dirname, '../.cache')
+export const CACHE_DIR = temp.mkdirSync('kuss-gkd-cli-cache')
 
 export const TEMPLATES_URL = 'https://github.com/KusStar/gkd/tree/master/packages/templates/src'
 
