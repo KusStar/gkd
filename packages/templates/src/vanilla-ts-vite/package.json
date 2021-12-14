@@ -13,8 +13,8 @@
   "devDependencies": {
     "@kuss/eslint-config-vanilla": "2.4.0",
     "eslint": "8.4.1",
-    "typescript": "4.5.3",
-    "vite": "2.7.1"
+    "typescript": "4.5.4",
+    "vite": "2.7.2"
   },
   "license": "MIT"
 }
