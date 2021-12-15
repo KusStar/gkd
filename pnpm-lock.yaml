@@ -25,7 +25,7 @@ importers:
       dot-prop: 6.0.1
       ejs: 3.1.6
       enquirer: 2.3.6
-      gdl: 1.4.2
+      gdl: 1.5.0
       ignore: 5.1.9
       ora: 6.0.1
       rimraf: 3.0.2
@@ -45,7 +45,7 @@ importers:
       dot-prop: 6.0.1
       ejs: 3.1.6
       enquirer: 2.3.6
-      gdl: 1.4.2
+      gdl: 1.5.0
       ignore: 5.1.9
       ora: 6.0.1
       rimraf: 3.0.2
@@ -1453,8 +1453,8 @@ packages:
     resolution: {integrity: sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=}
     dev: true
 
-  /gdl/1.4.2:
-    resolution: {integrity: sha512-3eOC35iVWz8DZkt6uKDPodYxYVIBtYHFUj9T4c96TeD8WAXIUQXzzG2W+281B+LIT1cRzSUMiR0hb3ePI1mkyw==}
+  /gdl/1.5.0:
+    resolution: {integrity: sha512-7HXxuuGlCD/JjpaRwFIGJFuaqh/tSfj/EpCWk/aElEVW2tTQogR1H1muwh2UlvzoVMyHe+vbaHqdQPDmnqhTWA==}
     hasBin: true
     dev: true
 
