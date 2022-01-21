@@ -22,7 +22,7 @@ importers:
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.1
       chalk: 5.0.0
-      dot-prop: 6.0.1
+      dot-prop: 7.0.0
       ejs: 3.1.6
       enquirer: 2.3.6
       gdl: 1.5.0
@@ -42,7 +42,7 @@ importers:
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.1
       chalk: 5.0.0
-      dot-prop: 6.0.1
+      dot-prop: 7.0.0
       ejs: 3.1.6
       enquirer: 2.3.6
       gdl: 1.5.0
@@ -992,11 +992,11 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /dot-prop/6.0.1:
-    resolution: {integrity: sha512-tE7ztYzXHIeyvc7N+hR3oi7FIbf/NIjVP9hmAt3yMXzrQ072/fpjGLx2GxNxGxUl5V73MEqYzioOMoVhGMJ5cA==}
-    engines: {node: '>=10'}
+  /dot-prop/7.0.0:
+    resolution: {integrity: sha512-GD9mHUsKiACS+U6Vqq8V1q6uR+7/5dQB+iQUyCkT0hKSEtX3hPcswUjYTyAGUuovvJsosBrCYmtjkCgi1gRLyQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      is-obj: 2.0.0
+      type-fest: 2.10.0
     dev: true
 
   /dotenv/8.6.0:
@@ -1748,11 +1748,6 @@ packages:
   /is-number/7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
-    dev: true
-
-  /is-obj/2.0.0:
-    resolution: {integrity: sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==}
-    engines: {node: '>=8'}
     dev: true
 
   /is-plain-obj/1.1.0:
@@ -2796,6 +2791,11 @@ packages:
   /type-fest/0.8.1:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
+    dev: true
+
+  /type-fest/2.10.0:
+    resolution: {integrity: sha512-u2yreDMllFI3VCpWt0rKrGs/E2LO0YHBwiiOIj+ilQh9+ALMaa4lNBSdoDvuHN3cbKcYk9L1BXP49x9RT+o/SA==}
+    engines: {node: '>=12.20'}
     dev: true
 
   /typescript/4.5.5:
