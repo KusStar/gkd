@@ -22,7 +22,7 @@ importers:
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.1
       chalk: 5.0.0
-      dot-prop: 7.0.0
+      dot-prop: 7.1.0
       ejs: 3.1.6
       enquirer: 2.3.6
       gdl: 1.5.0
@@ -42,7 +42,7 @@ importers:
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.1
       chalk: 5.0.0
-      dot-prop: 7.0.0
+      dot-prop: 7.1.0
       ejs: 3.1.6
       enquirer: 2.3.6
       gdl: 1.5.0
@@ -992,8 +992,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /dot-prop/7.0.0:
-    resolution: {integrity: sha512-GD9mHUsKiACS+U6Vqq8V1q6uR+7/5dQB+iQUyCkT0hKSEtX3hPcswUjYTyAGUuovvJsosBrCYmtjkCgi1gRLyQ==}
+  /dot-prop/7.1.0:
+    resolution: {integrity: sha512-1ilqdDBRrzHCU/ch0pDyXnGLpnXxmXIml0ozStvPu0v/R5/XknCR3ROXdmXAq4n9zUsH1hDFIhAj5eia+u8Jvg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       type-fest: 2.10.0
