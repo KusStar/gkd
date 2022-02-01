@@ -17,7 +17,7 @@ importers:
       '@changesets/changelog-github': 0.4.2
       '@types/ejs': 3.1.0
       '@types/listr': 0.14.4
-      '@types/node': 16.11.21
+      '@types/node': 16.11.22
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.1
@@ -37,7 +37,7 @@ importers:
       '@changesets/changelog-github': 0.4.2
       '@types/ejs': 3.1.0
       '@types/listr': 0.14.4
-      '@types/node': 16.11.21
+      '@types/node': 16.11.22
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.1
@@ -390,7 +390,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.11.21
+      '@types/node': 16.11.22
     dev: true
 
   /@types/is-ci/3.0.0:
@@ -410,7 +410,7 @@ packages:
   /@types/listr/0.14.4:
     resolution: {integrity: sha512-+MWvidNujBUgJsi4yMVwEQQwaHe6oHedPSy+dwk3akGEeuIbvhWkK+TGsXSwbFup7Y0cCBb+wzzdD+yGKp7sOg==}
     dependencies:
-      '@types/node': 16.11.21
+      '@types/node': 16.11.22
       rxjs: 6.6.7
     dev: true
 
@@ -426,8 +426,8 @@ packages:
     resolution: {integrity: sha512-+5haRZ9uzI7rYqzDznXgkuacqb6LJhAti8mzZKWxIXn/WEtvB+GHVJ7AuMwcN1HMvXOSJcrvA6PPoYHYOYYebA==}
     dev: true
 
-  /@types/node/16.11.21:
-    resolution: {integrity: sha512-Pf8M1XD9i1ksZEcCP8vuSNwooJ/bZapNmIzpmsMaL+jMI+8mEYU3PKvs+xDNuQcJWF/x24WzY4qxLtB0zNow9A==}
+  /@types/node/16.11.22:
+    resolution: {integrity: sha512-DYNtJWauMQ9RNpesl4aVothr97/tIJM8HbyOXJ0AYT1Z2bEjLHyfjOBPAQQVMLf8h3kSShYfNk8Wnto8B2zHUA==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -441,7 +441,7 @@ packages:
   /@types/temp/0.9.1:
     resolution: {integrity: sha512-yDQ8Y+oQi9V7VkexwE6NBSVyNuyNFeGI275yWXASc2DjmxNicMi9O50KxDpNlST1kBbV9jKYBHGXhgNYFMPqtA==}
     dependencies:
-      '@types/node': 16.11.21
+      '@types/node': 16.11.22
     dev: true
 
   /@types/yargs-parser/20.2.1:
