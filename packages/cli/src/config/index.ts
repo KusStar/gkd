@@ -1,4 +1,4 @@
-import { get, set } from 'dot-prop'
+import { getProperty as get, setProperty as set } from 'dot-prop'
 import fs from 'fs'
 import path from 'path'
 
