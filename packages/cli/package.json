@@ -27,7 +27,7 @@
     "@types/node": "16.11.24",
     "@types/temp": "0.9.1",
     "@types/yargs": "17.0.8",
-    "@vercel/ncc": "0.33.1",
+    "@vercel/ncc": "0.33.2",
     "chalk": "5.0.0",
     "dot-prop": "7.1.1",
     "ejs": "3.1.6",
