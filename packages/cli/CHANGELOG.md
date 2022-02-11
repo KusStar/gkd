@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.2.2
+
+### Patch Changes
+
+- chore: bump cli version
+
 ## 3.2.0
 
 ### Minor Changes
