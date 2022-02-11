@@ -1,5 +1,17 @@
 # @kuss/gkd-cli
 
+## 3.2.0
+
+### Minor Changes
+
+- [`ecd24d8`](https://github.com/KusStar/gkd/commit/ecd24d84af24d84c5bca08b8b462c83b11124028) Thanks [@KusStar](https://github.com/KusStar)! - feat: move cache dir to temp
+
+* [`5402021`](https://github.com/KusStar/gkd/commit/5402021e130edce55efd519f19f4435fd1a01378) Thanks [@KusStar](https://github.com/KusStar)! - fix: build:cli errors
+
+### Patch Changes
+
+- [`f37df0c`](https://github.com/KusStar/gkd/commit/f37df0c9505eaa93cf49661670cc382b9e907a72) Thanks [@KusStar](https://github.com/KusStar)! - fix(cli): get, set is not exported from dot-prop
+
 ## 3.1.2
 
 ### Patch Changes
