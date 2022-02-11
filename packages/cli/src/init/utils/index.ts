@@ -1,9 +1,9 @@
 import ejs from 'ejs'
 import { prompt } from 'enquirer'
+import fs from 'fs'
 import { download } from 'gdl'
-import fs from 'node:fs'
-import path from 'node:path'
 import ora from 'ora'
+import path from 'path'
 import temp from 'temp'
 
 import { loadConfig } from '../../config'
