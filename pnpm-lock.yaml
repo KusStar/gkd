@@ -26,7 +26,7 @@ importers:
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.3
       chalk: 5.0.0
-      dot-prop: 7.1.1
+      dot-prop: 7.2.0
       ejs: 3.1.6
       enquirer: 2.3.6
       gdl: 1.5.0
@@ -46,7 +46,7 @@ importers:
       '@types/yargs': 17.0.8
       '@vercel/ncc': 0.33.3
       chalk: 5.0.0
-      dot-prop: 7.1.1
+      dot-prop: 7.2.0
       ejs: 3.1.6
       enquirer: 2.3.6
       gdl: 1.5.0
@@ -980,11 +980,11 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /dot-prop/7.1.1:
-    resolution: {integrity: sha512-1Rux9sph1ofNp/Bi3+zzW7XGz7Kbz+GJMKw8ncks+zS9o/zQ/+xs1livKWfQcBLYYZjEpbpzf3RrIecwb5afFQ==}
+  /dot-prop/7.2.0:
+    resolution: {integrity: sha512-Ol/IPXUARn9CSbkrdV4VJo7uCy1I3VuSiWCaFSg+8BdUOzF9n3jefIpcgAydvUZbTdEBZs2vEiTiS9m61ssiDA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      type-fest: 2.10.0
+      type-fest: 2.11.2
     dev: true
 
   /dotenv/8.6.0:
@@ -2716,8 +2716,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /type-fest/2.10.0:
-    resolution: {integrity: sha512-u2yreDMllFI3VCpWt0rKrGs/E2LO0YHBwiiOIj+ilQh9+ALMaa4lNBSdoDvuHN3cbKcYk9L1BXP49x9RT+o/SA==}
+  /type-fest/2.11.2:
+    resolution: {integrity: sha512-reW2Y2Mpn0QNA/5fvtm5doROLwDPu2zOm5RtY7xQQS05Q7xgC8MOZ3yPNaP9m/s/sNjjFQtHo7VCNqYW2iI+Ig==}
     engines: {node: '>=12.20'}
     dev: true
 
