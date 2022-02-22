@@ -34,7 +34,7 @@
     "enquirer": "2.3.6",
     "gdl": "1.5.0",
     "ignore": "5.2.0",
-    "ora": "6.0.1",
+    "ora": "6.1.0",
     "rimraf": "3.0.2",
     "sort-package-json": "1.54.0",
     "temp": "0.9.4",

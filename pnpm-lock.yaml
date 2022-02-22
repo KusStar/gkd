@@ -31,7 +31,7 @@ importers:
       enquirer: 2.3.6
       gdl: 1.5.0
       ignore: 5.2.0
-      ora: 6.0.1
+      ora: 6.1.0
       rimraf: 3.0.2
       sort-package-json: 1.54.0
       temp: 0.9.4
@@ -51,7 +51,7 @@ importers:
       enquirer: 2.3.6
       gdl: 1.5.0
       ignore: 5.2.0
-      ora: 6.0.1
+      ora: 6.1.0
       rimraf: 3.0.2
       sort-package-json: 1.54.0
       temp: 0.9.4
@@ -1889,11 +1889,11 @@ packages:
     resolution: {integrity: sha1-lDbjTtJgk+1/+uGTYUQ1CRXZrdg=}
     dev: true
 
-  /log-symbols/5.0.0:
-    resolution: {integrity: sha512-zBsSKauX7sM0kcqrf8VpMRPqcWzU6a/Wi7iEl0QlVSCiIZ4CctaLdfVdiZUn6q2/nenyt392qJqpw9FhNAwqxQ==}
+  /log-symbols/5.1.0:
+    resolution: {integrity: sha512-l0x2DvrW294C9uDCoQe1VSU4gf529FkSZ6leBl4TiqZH/e+0R7hSfHQBNut2mNygDgHwvYHfFLn6Oxb3VWj2rA==}
     engines: {node: '>=12'}
     dependencies:
-      chalk: 4.1.2
+      chalk: 5.0.0
       is-unicode-supported: 1.1.0
     dev: true
 
@@ -2077,17 +2077,17 @@ packages:
       word-wrap: 1.2.3
     dev: true
 
-  /ora/6.0.1:
-    resolution: {integrity: sha512-TDdKkKHdWE6jo/6pIa5U5AWcSVfpNRFJ8sdRJpioGNVPLAzZzHs/N+QhUfF7ZbyoC+rnDuNTKzeDJUbAza9g4g==}
+  /ora/6.1.0:
+    resolution: {integrity: sha512-CxEP6845hLK+NHFWZ+LplGO4zfw4QSfxTlqMfvlJ988GoiUeZDMzCvqsZkFHv69sPICmJH1MDxZoQFOKXerAVw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       bl: 5.0.0
-      chalk: 4.1.2
+      chalk: 5.0.0
       cli-cursor: 4.0.0
       cli-spinners: 2.6.1
       is-interactive: 2.0.0
       is-unicode-supported: 1.1.0
-      log-symbols: 5.0.0
+      log-symbols: 5.1.0
       strip-ansi: 7.0.1
       wcwidth: 1.0.1
     dev: true
