@@ -25,7 +25,7 @@ importers:
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.9
       '@vercel/ncc': 0.33.3
-      chalk: 5.0.0
+      chalk: 5.0.1
       dot-prop: 7.2.0
       ejs: 3.1.6
       enquirer: 2.3.6
@@ -45,7 +45,7 @@ importers:
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.9
       '@vercel/ncc': 0.33.3
-      chalk: 5.0.0
+      chalk: 5.0.1
       dot-prop: 7.2.0
       ejs: 3.1.6
       enquirer: 2.3.6
@@ -769,8 +769,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /chalk/5.0.0:
-    resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
@@ -1881,7 +1881,7 @@ packages:
     resolution: {integrity: sha512-l0x2DvrW294C9uDCoQe1VSU4gf529FkSZ6leBl4TiqZH/e+0R7hSfHQBNut2mNygDgHwvYHfFLn6Oxb3VWj2rA==}
     engines: {node: '>=12'}
     dependencies:
-      chalk: 5.0.0
+      chalk: 5.0.1
       is-unicode-supported: 1.1.0
     dev: true
 
@@ -2070,7 +2070,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       bl: 5.0.0
-      chalk: 5.0.0
+      chalk: 5.0.1
       cli-cursor: 4.0.0
       cli-spinners: 2.6.1
       is-interactive: 2.0.0
