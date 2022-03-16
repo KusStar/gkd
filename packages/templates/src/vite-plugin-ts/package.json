@@ -20,18 +20,18 @@
     "start": "npm run build -- --watch"
   },
   "dependencies": {
-    "@rollup/pluginutils": "4.1.2"
+    "@rollup/pluginutils": "4.2.0"
   },
   "devDependencies": {
     "@kuss/eslint-config-vanilla": "2.4.0",
-    "@release-it/conventional-changelog": "4.1.0",
-    "release-it": "14.12.4",
-    "eslint": "8.9.0",
-    "tsup": "5.11.13",
-    "typescript": "4.5.5",
-    "vite": "2.8.2"
+    "@release-it/conventional-changelog": "4.2.2",
+    "release-it": "14.12.5",
+    "eslint": "8.10.0",
+    "tsup": "5.12.1",
+    "typescript": "4.6.2",
+    "vite": "2.8.6"
   },
   "peerDependencies": {
-    "vite": "2.8.2"
+    "vite": "2.8.6"
   }
 }
