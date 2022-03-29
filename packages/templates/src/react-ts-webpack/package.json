@@ -11,8 +11,8 @@
   "author": "<%- author.name %>",
   "license": "MIT",
   "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@types/react": "17.0.43",
