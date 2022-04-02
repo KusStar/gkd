@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@react-three/drei": "9.0.4",
-    "@react-three/fiber": "8.0.6",
+    "@react-three/fiber": "8.0.8",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "three-stdlib": "2.9.1",
