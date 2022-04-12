@@ -27,7 +27,7 @@
     "@types/node": "16.11.26",
     "@types/temp": "0.9.1",
     "@types/yargs": "17.0.10",
-    "@vercel/ncc": "0.33.3",
+    "@vercel/ncc": "0.33.4",
     "chalk": "5.0.1",
     "dot-prop": "7.2.0",
     "ejs": "3.1.6",
@@ -39,7 +39,7 @@
     "sort-package-json": "1.55.0",
     "temp": "0.9.4",
     "typescript": "4.6.3",
-    "yargs": "17.4.0"
+    "yargs": "17.4.1"
   },
   "engines": {
     "node": ">=12"
