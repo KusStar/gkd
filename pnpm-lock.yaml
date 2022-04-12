@@ -24,7 +24,7 @@ importers:
       '@types/node': 16.11.26
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.10
-      '@vercel/ncc': 0.33.3
+      '@vercel/ncc': 0.33.4
       chalk: 5.0.1
       dot-prop: 7.2.0
       ejs: 3.1.6
@@ -44,7 +44,7 @@ importers:
       '@types/node': 16.11.26
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.10
-      '@vercel/ncc': 0.33.3
+      '@vercel/ncc': 0.33.4
       chalk: 5.0.1
       dot-prop: 7.2.0
       ejs: 3.1.6
@@ -572,8 +572,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vercel/ncc/0.33.3:
-    resolution: {integrity: sha512-JGZ11QV+/ZcfudW2Cz2JVp54/pJNXbsuWRgSh2ZmmZdQBKXqBtIGrwI1Wyx8nlbzAiEFe7FHi4K1zX4//jxTnQ==}
+  /@vercel/ncc/0.33.4:
+    resolution: {integrity: sha512-ln18hs7dMffelP47tpkaR+V5Tj6coykNyxJrlcmCormPqRQjB/Gv4cu2FfBG+PMzIfdZp2CLDsrrB1NPU22Qhg==}
     hasBin: true
     dev: true
 
