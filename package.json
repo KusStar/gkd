@@ -18,6 +18,6 @@
     "@changesets/cli": "2.22.0",
     "@kuss/eslint-config-vanilla": "2.4.0",
     "@types/node": "16.11.33",
-    "eslint": "8.14.0"
+    "eslint": "8.15.0"
   }
 }
