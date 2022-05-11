@@ -27,7 +27,7 @@ importers:
       '@vercel/ncc': 0.33.4
       chalk: 5.0.1
       dot-prop: 7.2.0
-      ejs: 3.1.7
+      ejs: 3.1.8
       enquirer: 2.3.6
       gdl: 1.5.0
       ignore: 5.2.0
@@ -47,7 +47,7 @@ importers:
       '@vercel/ncc': 0.33.4
       chalk: 5.0.1
       dot-prop: 7.2.0
-      ejs: 3.1.7
+      ejs: 3.1.8
       enquirer: 2.3.6
       gdl: 1.5.0
       ignore: 5.2.0
@@ -1003,8 +1003,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /ejs/3.1.7:
-    resolution: {integrity: sha512-BIar7R6abbUxDA3bfXrO4DSgwo8I+fB5/1zgujl3HLLjwd6+9iOnrT+t3grn2qbk9vOgBubXOFwX2m9axoFaGw==}
+  /ejs/3.1.8:
+    resolution: {integrity: sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
@@ -1388,7 +1388,7 @@ packages:
   /filelist/1.0.2:
     resolution: {integrity: sha512-z7O0IS8Plc39rTCq6i6iHxk43duYOn8uFJiWSewIq0Bww1RNybVHSCjahmcC87ZqAm4OTvFzlzeGu3XAzG1ctQ==}
     dependencies:
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     dev: true
 
   /fill-range/7.0.1:
@@ -1819,7 +1819,7 @@ packages:
       async: 3.2.3
       chalk: 4.1.2
       filelist: 1.0.2
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     dev: true
 
   /js-tokens/4.0.0:
