@@ -19,7 +19,7 @@ importers:
   packages/cli:
     specifiers:
       '@changesets/changelog-github': 0.4.4
-      '@types/ejs': 3.1.0
+      '@types/ejs': 3.1.1
       '@types/listr': 0.14.4
       '@types/node': 16.11.34
       '@types/temp': 0.9.1
@@ -39,7 +39,7 @@ importers:
       yargs: 17.5.0
     devDependencies:
       '@changesets/changelog-github': 0.4.4
-      '@types/ejs': 3.1.0
+      '@types/ejs': 3.1.1
       '@types/listr': 0.14.4
       '@types/node': 16.11.34
       '@types/temp': 0.9.1
@@ -405,8 +405,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@types/ejs/3.1.0:
-    resolution: {integrity: sha512-DCg+Ka+uDQ31lJ/UtEXVlaeV3d6t81gifaVWKJy4MYVVgvJttyX/viREy+If7fz+tK/gVxTGMtyrFPnm4gjrVA==}
+  /@types/ejs/3.1.1:
+    resolution: {integrity: sha512-RQul5wEfY7BjWm0sYY86cmUN/pcXWGyVxWX93DFFJvcrxax5zKlieLwA3T77xJGwNcZW0YW6CYG70p1m8xPFmA==}
     dev: true
 
   /@types/glob/7.2.0:
