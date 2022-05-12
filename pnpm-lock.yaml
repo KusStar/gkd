@@ -36,7 +36,7 @@ importers:
       sort-package-json: 1.57.0
       temp: 0.9.4
       typescript: 4.6.4
-      yargs: 17.4.1
+      yargs: 17.5.0
     devDependencies:
       '@changesets/changelog-github': 0.4.4
       '@types/ejs': 3.1.0
@@ -56,7 +56,7 @@ importers:
       sort-package-json: 1.57.0
       temp: 0.9.4
       typescript: 4.6.4
-      yargs: 17.4.1
+      yargs: 17.5.0
 
 packages:
 
@@ -2930,8 +2930,8 @@ packages:
       yargs-parser: 18.1.3
     dev: true
 
-  /yargs/17.4.1:
-    resolution: {integrity: sha512-WSZD9jgobAg3ZKuCQZSa3g9QOJeCCqLoLAykiWgmXnDo9EPnn4RPf5qVTtzgOx66o6/oqhcA5tHtJXpG8pMt3g==}
+  /yargs/17.5.0:
+    resolution: {integrity: sha512-3sLxVhbAB5OC8qvVRebCLWuouhwh/rswsiDYx3WGxajUk/l4G20SKfrKKFeNIHboUFt2JFgv2yfn+5cgOr/t5A==}
     engines: {node: '>=12'}
     dependencies:
       cliui: 7.0.4
