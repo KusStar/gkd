@@ -7,13 +7,13 @@ importers:
       '@changesets/changelog-github': 0.4.4
       '@changesets/cli': 2.22.0
       '@kuss/eslint-config-vanilla': 2.4.0
-      '@types/node': 16.11.34
+      '@types/node': 16.11.35
       eslint: 8.15.0
     devDependencies:
       '@changesets/changelog-github': 0.4.4
       '@changesets/cli': 2.22.0
       '@kuss/eslint-config-vanilla': 2.4.0_eslint@8.15.0
-      '@types/node': 16.11.34
+      '@types/node': 16.11.35
       eslint: 8.15.0
 
   packages/cli:
@@ -21,7 +21,7 @@ importers:
       '@changesets/changelog-github': 0.4.4
       '@types/ejs': 3.1.1
       '@types/listr': 0.14.4
-      '@types/node': 16.11.34
+      '@types/node': 16.11.35
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.10
       '@vercel/ncc': 0.33.4
@@ -41,7 +41,7 @@ importers:
       '@changesets/changelog-github': 0.4.4
       '@types/ejs': 3.1.1
       '@types/listr': 0.14.4
-      '@types/node': 16.11.34
+      '@types/node': 16.11.35
       '@types/temp': 0.9.1
       '@types/yargs': 17.0.10
       '@vercel/ncc': 0.33.4
@@ -413,7 +413,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.11.34
+      '@types/node': 16.11.35
     dev: true
 
   /@types/is-ci/3.0.0:
@@ -433,7 +433,7 @@ packages:
   /@types/listr/0.14.4:
     resolution: {integrity: sha512-+MWvidNujBUgJsi4yMVwEQQwaHe6oHedPSy+dwk3akGEeuIbvhWkK+TGsXSwbFup7Y0cCBb+wzzdD+yGKp7sOg==}
     dependencies:
-      '@types/node': 16.11.34
+      '@types/node': 16.11.35
       rxjs: 6.6.7
     dev: true
 
@@ -449,8 +449,8 @@ packages:
     resolution: {integrity: sha512-+5haRZ9uzI7rYqzDznXgkuacqb6LJhAti8mzZKWxIXn/WEtvB+GHVJ7AuMwcN1HMvXOSJcrvA6PPoYHYOYYebA==}
     dev: true
 
-  /@types/node/16.11.34:
-    resolution: {integrity: sha512-UrWGDyLAlQ2Z8bNOGWTsqbP9ZcBeTYBVuTRNxXTztBy5KhWUFI3BaeDWoCP/CzV/EVGgO1NTYzv9ZytBI9GAEw==}
+  /@types/node/16.11.35:
+    resolution: {integrity: sha512-QXu45LyepgnhUfnIAj/FyT4uM87ug5KpIrgXfQtUPNAlx8w5hmd8z8emqCLNvG11QkpRSCG9Qg2buMxvqfjfsQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -464,7 +464,7 @@ packages:
   /@types/temp/0.9.1:
     resolution: {integrity: sha512-yDQ8Y+oQi9V7VkexwE6NBSVyNuyNFeGI275yWXASc2DjmxNicMi9O50KxDpNlST1kBbV9jKYBHGXhgNYFMPqtA==}
     dependencies:
-      '@types/node': 16.11.34
+      '@types/node': 16.11.35
     dev: true
 
   /@types/yargs-parser/20.2.1:
