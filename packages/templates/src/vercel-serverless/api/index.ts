@@ -1,6 +1,6 @@
-import { NowRequest, NowResponse } from '@vercel/node'
+import { VercelRequest, VercelResponse } from '@vercel/node'
 
-export default function (req: NowRequest, res: NowResponse) {
+export default function (req: VercelRequest, res: VercelResponse) {
   const { name = 'World' } = req.query
   res.send(`Hello ${name}!`)
 }
