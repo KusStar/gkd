@@ -17,7 +17,7 @@
     "@changesets/changelog-github": "0.4.4",
     "@changesets/cli": "2.22.0",
     "@kuss/eslint-config-vanilla": "2.4.0",
-    "@types/node": "16.11.38",
+    "@types/node": "16.11.39",
     "eslint": "8.17.0"
   }
 }
