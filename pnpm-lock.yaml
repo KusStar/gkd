@@ -31,7 +31,7 @@ importers:
       enquirer: 2.3.6
       gdl: 1.5.0
       ignore: 5.2.0
-      ora: 6.1.1
+      ora: 6.1.2
       rimraf: 3.0.2
       sort-package-json: 1.57.0
       temp: 0.9.4
@@ -51,7 +51,7 @@ importers:
       enquirer: 2.3.6
       gdl: 1.5.0
       ignore: 5.2.0
-      ora: 6.1.1
+      ora: 6.1.2
       rimraf: 3.0.2
       sort-package-json: 1.57.0
       temp: 0.9.4
@@ -2120,8 +2120,8 @@ packages:
       word-wrap: 1.2.3
     dev: true
 
-  /ora/6.1.1:
-    resolution: {integrity: sha512-MTvBeGEswwM6CjyuidTH4nKdmG8YudnsZZRMdpj4YFfm7qDnvOSTKU2biA3dqdnL5m5CT3R9bWk+M3A8fqtEZw==}
+  /ora/6.1.2:
+    resolution: {integrity: sha512-EJQ3NiP5Xo94wJXIzAyOtSb0QEIAUu7m8t6UZ9krbz0vAJqr92JpcK/lEXg91q6B9pEGqrykkd2EQplnifDSBw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       bl: 5.0.0
