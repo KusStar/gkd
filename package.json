@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.5",
-    "@changesets/cli": "2.23.0",
+    "@changesets/cli": "2.23.1",
     "@kuss/eslint-config-vanilla": "2.4.0",
     "@types/node": "16.11.43",
     "eslint": "8.19.0"
