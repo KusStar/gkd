@@ -23,15 +23,16 @@ $ gkd help
 gkd <command>
 
 Commands:
-  gkd init <name>                     Initial with template
-                                                        [aliases: create]
-  gkd generate <to> <from>            Generate template from source
-                                                           [aliases: gen]
-  gkd config <operate> [key] [value]  Get or set config
+  gkd init <name>                 Initial with template
+                                            [aliases: create]
+  gkd generate <from> <to>        Generate template from
+                                  source       [aliases: gen]
+  gkd config <operate> [key]      Get or set config
+  [value]
 
 Options:
-  --help     Show help                                          [boolean]
-  --version  Show version number                                [boolean]
+  --help     Show help                              [boolean]
+  --version  Show version number                    [boolean]
 ```
 
 ## Example
