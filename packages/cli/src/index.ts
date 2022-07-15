@@ -44,7 +44,8 @@ export const createCli = () => {
     .command('config <operate> [key] [value]', 'Get or set config', (Argv) => {
       return Argv
         .positional('operate', {
-          type: 'string'
+          type: 'string',
+          describe: 'Should be "get" | "set"'
         })
         .positional('key', {
           type: 'string'

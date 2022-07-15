@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.4.3
+
+### Patch Changes
+
+- chores: cli config command doc
+
 ## 3.4.2
 
 ### Patch Changes
