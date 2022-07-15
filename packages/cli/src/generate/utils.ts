@@ -5,7 +5,7 @@ import sortPackageJson from 'sort-package-json'
 import os from 'os'
 
 export const defaultIgnores = ignore()
-  .add(['.git', 'CHANGELOG.md', 'README.md', 'LICENSE', "node_modules"])
+  .add(['.git', 'CHANGELOG.md', 'README.md', 'LICENSE', "node_modules", "*.log", "pnpm-lock.yaml", "yarn.lock", "package-lock.json"])
 
 const ctx = {
   name: null

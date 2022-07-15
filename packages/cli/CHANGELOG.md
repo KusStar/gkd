@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.4.1
+
+### Patch Changes
+
+- fix: generate command default ignores
+
 ## 3.4.0
 
 ### Minor Changes
