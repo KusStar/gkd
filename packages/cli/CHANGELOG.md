@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.3.1
+
+### Patch Changes
+
+- fix: generate command args
+
 ## 3.3.0
 
 ### Minor Changes

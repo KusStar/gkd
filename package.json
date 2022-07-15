@@ -6,8 +6,7 @@
   "author": "KusStar",
   "private": true,
   "scripts": {
-    "change": "changeset",
-    "ci:version": "changeset version",
+    "ci:version": "changeset && changeset version",
     "build:cli": "pnpm  --filter @kuss/gkd-cli build",
     "ci:publish": "npm run build:cli && changeset publish",
     "lint": "eslint ./",
