@@ -19,14 +19,14 @@ export const createCli = () => {
         init(argv.name)
       }
     })
-    .command(['generate <to> <from>', 'gen'], 'Generate template from source', (Argv) => {
+    .command(['generate <from> <to>', 'gen'], 'Generate template from source', (Argv) => {
       return Argv
-        .positional('to', {
-          describe: 'Path to generated template',
-          type: 'string'
-        })
         .positional('from', {
           describe: 'Path to source path',
+          type: 'string'
+        })
+        .positional('to', {
+          describe: 'Path to generated template',
           type: 'string'
         })
         .option('ignore', {

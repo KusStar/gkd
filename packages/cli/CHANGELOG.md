@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.4.2
+
+### Patch Changes
+
+- fix: generate command cli doc
+
 ## 3.4.1
 
 ### Patch Changes
