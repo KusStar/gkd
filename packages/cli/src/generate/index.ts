@@ -1,9 +1,9 @@
-import fs from 'fs'
+import fs from 'fs-extra'
 import ignore from 'ignore'
 import path from 'path'
 
 import { checkOverwritten } from '../shared'
-import { defaultIgnores, generateTo } from './utils'
+import { defaultIgnores, generateTo, createTmpDir } from './utils';
 
 export interface Options {
   ignore?: string[]
@@ -14,13 +14,25 @@ export const generate = async (from: string, to: string, options: Options = {}) 
     console.log('gkd: target path cannot be the same as source path')
     process.exit(1)
   }
+  const { tmpDir, clean } = createTmpDir('kuss__gkd')
+  const originalFrom = from === '.' ? path.basename(process.cwd()) : from
+
+  if (!tmpDir) {
+    console.log('gkd: cannot create temporary directory')
+    process.exit(1)
+  }
+
+  if (from) {
+    fs.copySync(from, tmpDir)
+    from = tmpDir
+  }
 
   await checkOverwritten(to)
 
   if (!fs.existsSync(to)) {
     fs.mkdirSync(to, { recursive: true })
   } else {
-    fs.rmSync(to, { recursive: true, force: true })
+    fs.removeSync(to)
     fs.mkdirSync(to, { recursive: true })
   }
 
@@ -39,6 +51,7 @@ export const generate = async (from: string, to: string, options: Options = {}) 
 
   generateTo(from, to, ig, true)
 
-  console.log(`gkd: Generate template ${to} from ${from} done`)
-  console.log(`gkd: at ${path.relative(process.cwd(), to)}`)
+  clean()
+
+  console.log(`gkd: Generated template from ${originalFrom} to ${to} `)
 }
