@@ -2,6 +2,8 @@
 
 > A templates and dependency manager.
 
+[![asciicast](https://asciinema.org/a/8hmdgPjfOZMo9Pv7hpBRVM6wz.svg)](https://asciinema.org/a/8hmdgPjfOZMo9Pv7hpBRVM6wz)
+
 ## Features
 
 - Provide templates for starting project.
@@ -35,14 +37,6 @@ Options:
   --version  Show version number                    [boolean]
 ```
 
-## Example
-
-```sh
-# gkd init, select template and wait for fetching
-$ gkd init hello-gkd
-# CD into it
-$ cd hello-gkd
-```
 ## Thanks
 
 - [create-snowpack-app](https://github.com/pikapkg/create-snowpack-app)
