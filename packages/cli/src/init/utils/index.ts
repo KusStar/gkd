@@ -1,6 +1,6 @@
 import ejs from 'ejs'
 import { prompt } from 'enquirer'
-import fs from 'fs'
+import fs from 'fs-extra'
 import { download } from 'gdl'
 import ora from 'ora'
 import path from 'path'
@@ -54,7 +54,7 @@ export const initContext = async (name: string): Promise<Context> => {
 
 const prepareDir = async (dir: string) => {
   if (fs.existsSync(dir)) {
-    await fs.rmSync(dir, { force: true, recursive: true })
+    await fs.removeSync(dir)
   }
   await fs.mkdirSync(dir)
 }
@@ -88,6 +88,10 @@ export const startDownload = async (ctx: Context) => {
   const { name, template } = ctx
 
   const target = path.join(process.cwd(), name)
+
+  if (name === '.') {
+    ctx.name = path.basename(process.cwd())
+  }
 
   await prepareDir(target)
 
