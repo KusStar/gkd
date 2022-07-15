@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.3.0
+
+### Minor Changes
+
+- fix init command for cwd
+
 ## 3.2.2
 
 ### Patch Changes

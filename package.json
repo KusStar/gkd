@@ -8,7 +8,7 @@
   "scripts": {
     "change": "changeset",
     "ci:version": "changeset version",
-    "build:cli": "pnpm build --filter @kuss/gkd-cli",
+    "build:cli": "pnpm  --filter @kuss/gkd-cli build",
     "ci:publish": "npm run build:cli && changeset publish",
     "lint": "eslint ./",
     "lint:fix": "npm run lint -- --fix"
