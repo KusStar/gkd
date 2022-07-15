@@ -9,7 +9,7 @@ export interface Options {
   ignore?: string[]
 }
 
-export const generate = async (to: string, from: string, options: Options = {}) => {
+export const generate = async (from: string, to: string, options: Options = {}) => {
   if (to === from) {
     console.log('gkd: target path cannot be the same as source path')
     process.exit(1)
