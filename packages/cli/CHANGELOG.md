@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.4.0
+
+### Minor Changes
+
+- fix: cli generate command from cwd
+
 ## 3.3.1
 
 ### Patch Changes
