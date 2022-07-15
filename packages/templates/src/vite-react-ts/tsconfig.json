@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": [
-      "esnext"
-    ],
     "module": "esnext",
     "moduleResolution": "node",
     "strict": false,
