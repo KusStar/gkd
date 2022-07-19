@@ -3,7 +3,7 @@ import ignore from 'ignore'
 import path from 'path'
 
 import { checkOverwritten } from '../shared'
-import { defaultIgnores, generateTo, createTmpDir } from './utils';
+import { createTmpDir, defaultIgnores, generateTo } from './utils'
 
 export interface Options {
   ignore?: string[]

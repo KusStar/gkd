@@ -1,11 +1,11 @@
 import fs from 'fs-extra'
 import ignore, { Ignore } from 'ignore'
+import os from 'os'
 import path from 'path'
 import sortPackageJson from 'sort-package-json'
-import os from 'os'
 
 export const defaultIgnores = ignore()
-  .add(['.git', 'CHANGELOG.md', 'README.md', 'LICENSE', "node_modules", "*.log", "pnpm-lock.yaml", "yarn.lock", "package-lock.json"])
+  .add(['.git', 'CHANGELOG.md', 'README.md', 'LICENSE', 'node_modules', '*.log', 'pnpm-lock.yaml', 'yarn.lock', 'package-lock.json'])
 
 const ctx = {
   name: null
@@ -67,21 +67,20 @@ export const generateTo = (from: string, to: string, ig: Ignore, root = false) =
 
 export const createTmpDir = (appPrefix: string) => {
   try {
-    const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), appPrefix));
+    const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), appPrefix))
     const clean = () => {
       try {
         if (tmpDir) {
-          fs.removeSync(tmpDir);
+          fs.removeSync(tmpDir)
         }
-      }
-      catch (e) {
-        console.error(`An error has occurred while removing the temp folder at ${tmpDir}. Please remove it manually. Error: ${e}`);
+      } catch (e) {
+        console.error(`An error has occurred while removing the temp folder at ${tmpDir}. Please remove it manually. Error: ${e}`)
       }
     }
     return {
       tmpDir,
-      clean,
-    };
+      clean
+    }
   } catch {
     return {}
   }
