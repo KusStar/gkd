@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.5.1
+
+### Patch Changes
+
+- fix: cli generate command
+
 ## 3.5.0
 
 ### Minor Changes

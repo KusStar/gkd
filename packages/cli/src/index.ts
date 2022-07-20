@@ -40,7 +40,7 @@ export const createCli = () => {
         })
     }, (argv) => {
       if (argv.to && argv.from) {
-        generate(argv.to, argv.from, {
+        generate(argv.from, argv.to, {
           ignore: argv.ignore?.map(it => it.toString())
         })
       }
