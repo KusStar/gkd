@@ -1,11 +1,15 @@
+import updateNotifier from 'update-notifier'
 import { hideBin } from 'yargs/helpers'
 import yargs from 'yargs/yargs'
 
+import packageJson from '../package.json'
 import { config, ConfigKey } from './config'
 import { generate } from './generate'
 import { init } from './init'
 
 export const createCli = () => {
+  updateNotifier({ pkg: packageJson }).notify()
+
   yargs(hideBin(process.argv))
     .scriptName('gkd')
     .command(['init <name>', 'create'], 'Initial with template', (Argv) => {
