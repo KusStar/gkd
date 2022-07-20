@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.5.0
+
+### Minor Changes
+
+- [`ee1678c`](https://github.com/KusStar/gkd/commit/ee1678c380b0791abed5f6e3114500274e00ae8d) Thanks [@KusStar](https://github.com/KusStar)! - feat: integrate with update-notifier
+
 ## 3.4.3
 
 ### Patch Changes
