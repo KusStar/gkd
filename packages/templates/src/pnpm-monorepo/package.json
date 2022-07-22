@@ -12,6 +12,6 @@
     "ci:version": "changeset version"
   },
   "dependencies": {
-    "@changesets/cli": "2.23.2"
+    "@changesets/cli": "2.24.0"
   }
 }
