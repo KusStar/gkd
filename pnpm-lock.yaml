@@ -22,18 +22,18 @@ importers:
     specifiers:
       '@changesets/changelog-github': 0.4.6
       '@types/ejs': 3.1.1
-      '@types/fs-extra': ^9.0.13
+      '@types/fs-extra': 9.0.13
       '@types/listr': 0.14.4
       '@types/node': 16.11.48
       '@types/temp': 0.9.1
-      '@types/update-notifier': ^6.0.1
+      '@types/update-notifier': 6.0.1
       '@types/yargs': 17.0.11
       '@vercel/ncc': 0.34.0
       chalk: 5.0.1
       dot-prop: 7.2.0
       ejs: 3.1.8
       enquirer: 2.3.6
-      fs-extra: ^10.1.0
+      fs-extra: 10.1.0
       gdl: 1.6.0
       ignore: 5.2.0
       ora: 6.1.2
@@ -41,7 +41,7 @@ importers:
       sort-package-json: 1.57.0
       temp: 0.9.4
       typescript: 4.7.4
-      update-notifier: ^6.0.2
+      update-notifier: 6.0.2
       yargs: 17.5.1
     devDependencies:
       '@changesets/changelog-github': 0.4.6
@@ -1116,7 +1116,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       dot-prop: 6.0.1
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       unique-string: 3.0.0
       write-file-atomic: 3.0.3
       xdg-basedir: 5.1.0
@@ -1845,7 +1845,7 @@ packages:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
     engines: {node: '>=12'}
     dependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: true
@@ -2036,10 +2036,6 @@ packages:
 
   /graceful-fs/4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
-    dev: true
-
-  /graceful-fs/4.2.9:
-    resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==}
     dev: true
 
   /grapheme-splitter/1.0.4:
