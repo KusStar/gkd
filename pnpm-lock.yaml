@@ -7,14 +7,14 @@ importers:
       '@changesets/changelog-github': 0.4.6
       '@changesets/cli': 2.24.3
       '@kuss/eslint-config-vanilla': 2.6.1
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
       eslint: 8.22.0
       typescript: 4.7.4
     devDependencies:
       '@changesets/changelog-github': 0.4.6
       '@changesets/cli': 2.24.3
       '@kuss/eslint-config-vanilla': 2.6.1_4rv7y5c6xz3vfxwhbrcxxi73bq
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
       eslint: 8.22.0
       typescript: 4.7.4
 
@@ -24,7 +24,7 @@ importers:
       '@types/ejs': 3.1.1
       '@types/fs-extra': 9.0.13
       '@types/listr': 0.14.4
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
       '@types/temp': 0.9.1
       '@types/update-notifier': 6.0.1
       '@types/yargs': 17.0.11
@@ -48,7 +48,7 @@ importers:
       '@types/ejs': 3.1.1
       '@types/fs-extra': 9.0.13
       '@types/listr': 0.14.4
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
       '@types/temp': 0.9.1
       '@types/update-notifier': 6.0.1
       '@types/yargs': 17.0.11
@@ -469,7 +469,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
       '@types/responselike': 1.0.0
     dev: true
 
@@ -484,14 +484,14 @@ packages:
   /@types/fs-extra/9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
     dev: true
 
   /@types/glob/7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
     dev: true
 
   /@types/http-cache-semantics/4.0.1:
@@ -519,13 +519,13 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
     dev: true
 
   /@types/listr/0.14.4:
     resolution: {integrity: sha512-+MWvidNujBUgJsi4yMVwEQQwaHe6oHedPSy+dwk3akGEeuIbvhWkK+TGsXSwbFup7Y0cCBb+wzzdD+yGKp7sOg==}
     dependencies:
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
       rxjs: 6.6.7
     dev: true
 
@@ -541,8 +541,8 @@ packages:
     resolution: {integrity: sha512-+5haRZ9uzI7rYqzDznXgkuacqb6LJhAti8mzZKWxIXn/WEtvB+GHVJ7AuMwcN1HMvXOSJcrvA6PPoYHYOYYebA==}
     dev: true
 
-  /@types/node/16.11.49:
-    resolution: {integrity: sha512-Abq9fBviLV93OiXMu+f6r0elxCzRwc0RC5f99cU892uBITL44pTvgvEqlRlPRi8EGcO1z7Cp8A4d0s/p3J/+Nw==}
+  /@types/node/16.11.50:
+    resolution: {integrity: sha512-JKSl7y+w1aaEd+2B1Y6HlMvrHUFDDzL7W3faUT9ZsJ0JhT7ijPPVS24XMhHlNVd76M23mogO7ipuqPjdNrPqxQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -552,7 +552,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
     dev: true
 
   /@types/semver/6.2.3:
@@ -562,7 +562,7 @@ packages:
   /@types/temp/0.9.1:
     resolution: {integrity: sha512-yDQ8Y+oQi9V7VkexwE6NBSVyNuyNFeGI275yWXASc2DjmxNicMi9O50KxDpNlST1kBbV9jKYBHGXhgNYFMPqtA==}
     dependencies:
-      '@types/node': 16.11.49
+      '@types/node': 16.11.50
     dev: true
 
   /@types/update-notifier/6.0.1:
