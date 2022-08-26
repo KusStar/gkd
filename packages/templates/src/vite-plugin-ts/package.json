@@ -28,7 +28,7 @@
     "release-it": "15.4.0",
     "eslint": "8.22.0",
     "tsup": "6.2.2",
-    "typescript": "4.7.4",
+    "typescript": "4.8.2",
     "vite": "3.0.9"
   },
   "peerDependencies": {
