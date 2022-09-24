@@ -28,7 +28,7 @@
     "@types/node": "16.11.60",
     "@types/temp": "0.9.1",
     "@types/update-notifier": "6.0.1",
-    "@types/yargs": "17.0.12",
+    "@types/yargs": "17.0.13",
     "@vercel/ncc": "0.34.0",
     "chalk": "5.0.1",
     "dot-prop": "7.2.0",
