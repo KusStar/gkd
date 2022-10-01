@@ -13,7 +13,7 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.4.6",
+    "@changesets/changelog-github": "0.4.7",
     "@changesets/cli": "2.24.4",
     "@kuss/eslint-config-vanilla": "2.6.1",
     "@types/node": "16.11.62",
