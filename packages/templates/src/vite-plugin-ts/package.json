@@ -20,7 +20,7 @@
     "start": "npm run build -- --watch"
   },
   "dependencies": {
-    "@rollup/pluginutils": "4.2.1"
+    "@rollup/pluginutils": "5.0.0"
   },
   "devDependencies": {
     "@kuss/eslint-config-vanilla": "2.6.1",
