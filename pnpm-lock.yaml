@@ -42,7 +42,7 @@ importers:
       temp: 0.9.4
       typescript: 4.8.4
       update-notifier: 6.0.2
-      yargs: 17.6.0
+      yargs: 17.6.1
     devDependencies:
       '@changesets/changelog-github': 0.4.7
       '@types/ejs': 3.1.1
@@ -66,7 +66,7 @@ importers:
       temp: 0.9.4
       typescript: 4.8.4
       update-notifier: 6.0.2
-      yargs: 17.6.0
+      yargs: 17.6.1
 
 packages:
 
@@ -3531,7 +3531,7 @@ packages:
       smartwrap: 2.0.2
       strip-ansi: 6.0.1
       wcwidth: 1.0.1
-      yargs: 17.6.0
+      yargs: 17.6.1
     dev: true
 
   /type-check/0.4.0:
@@ -3855,8 +3855,8 @@ packages:
       yargs-parser: 18.1.3
     dev: true
 
-  /yargs/17.6.0:
-    resolution: {integrity: sha512-8H/wTDqlSwoSnScvV2N/JHfLWOKuh5MVla9hqLjK3nsfyy6Y4kDSYSvkU5YCUEPOSnRXfIyx3Sq+B/IWudTo4g==}
+  /yargs/17.6.1:
+    resolution: {integrity: sha512-leBuCGrL4dAd6ispNOGsJlhd0uZ6Qehkbu/B9KCR+Pxa/NVdNwi+i31lo0buCm6XxhJQFshXCD0/evfV4xfoUg==}
     engines: {node: '>=12'}
     dependencies:
       cliui: 8.0.1
