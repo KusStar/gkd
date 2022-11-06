@@ -26,7 +26,7 @@
     "@kuss/eslint-config-vanilla": "2.6.1",
     "@release-it/conventional-changelog": "5.1.1",
     "release-it": "15.5.0",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "tsup": "6.4.0",
     "typescript": "4.8.4",
     "vite": "3.2.2"
