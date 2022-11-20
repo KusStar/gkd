@@ -18,6 +18,6 @@
     "@kuss/eslint-config-vanilla": "2.6.1",
     "@types/node": "18.11.9",
     "eslint": "8.28.0",
-    "typescript": "4.8.4"
+    "typescript": "4.9.3"
   }
 }
