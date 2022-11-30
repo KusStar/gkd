@@ -33,7 +33,7 @@ importers:
       dot-prop: 7.2.0
       ejs: 3.1.8
       enquirer: 2.3.6
-      fs-extra: 10.1.0
+      fs-extra: 11.1.0
       gdl: 1.6.0
       ignore: 5.2.1
       ora: 6.1.2
@@ -57,7 +57,7 @@ importers:
       dot-prop: 7.2.0
       ejs: 3.1.8
       enquirer: 2.3.6
-      fs-extra: 10.1.0
+      fs-extra: 11.1.0
       gdl: 1.6.0
       ignore: 5.2.1
       ora: 6.1.2
@@ -1826,9 +1826,9 @@ packages:
     resolution: {integrity: sha512-EFRDrsMm/kyqbTQocNvRXMLjc7Es2Vk+IQFx/YW7hkUH1eBl4J1fqiP34l74Yt0pFLCNpc06fkbVk00008mzjg==}
     dev: true
 
-  /fs-extra/10.1.0:
-    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
-    engines: {node: '>=12'}
+  /fs-extra/11.1.0:
+    resolution: {integrity: sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==}
+    engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.10
       jsonfile: 6.1.0
