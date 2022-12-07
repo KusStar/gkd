@@ -27,7 +27,7 @@ importers:
       '@types/node': 18.11.11
       '@types/temp': 0.9.1
       '@types/update-notifier': 6.0.1
-      '@types/yargs': 17.0.16
+      '@types/yargs': 17.0.17
       '@vercel/ncc': 0.36.0
       chalk: 5.1.2
       dot-prop: 7.2.0
@@ -51,7 +51,7 @@ importers:
       '@types/node': 18.11.11
       '@types/temp': 0.9.1
       '@types/update-notifier': 6.0.1
-      '@types/yargs': 17.0.16
+      '@types/yargs': 17.0.17
       '@vercel/ncc': 0.36.0
       chalk: 5.1.2
       dot-prop: 7.2.0
@@ -566,8 +566,8 @@ packages:
     resolution: {integrity: sha512-7tFImggNeNBVMsn0vLrpn1H1uPrUBdnARPTpZoitY37ZrdJREzf7I16tMrlK3hen349gr1NYh8CmZQa7CTG6Aw==}
     dev: true
 
-  /@types/yargs/17.0.16:
-    resolution: {integrity: sha512-Mh3OP0oh8X7O7F9m5AplC+XHYLBWuPKNkGVD3gIZFLFebBnuFI2Nz5Sf8WLvwGxECJ8YjifQvFdh79ubODkdug==}
+  /@types/yargs/17.0.17:
+    resolution: {integrity: sha512-72bWxFKTK6uwWJAVT+3rF6Jo6RTojiJ27FQo8Rf60AL+VZbzoVPnMFhKsUnbjR8A3BTCYQ7Mv3hnl8T0A+CX9g==}
     dependencies:
       '@types/yargs-parser': 20.2.1
     dev: true
