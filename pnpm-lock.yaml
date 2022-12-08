@@ -34,7 +34,7 @@ importers:
       ejs: 3.1.8
       enquirer: 2.3.6
       fs-extra: 11.1.0
-      gdl: 1.6.0
+      gdl: 1.7.0
       ignore: 5.2.1
       ora: 6.1.2
       rimraf: 3.0.2
@@ -58,7 +58,7 @@ importers:
       ejs: 3.1.8
       enquirer: 2.3.6
       fs-extra: 11.1.0
-      gdl: 1.6.0
+      gdl: 1.7.0
       ignore: 5.2.1
       ora: 6.1.2
       rimraf: 3.0.2
@@ -1865,8 +1865,8 @@ packages:
     resolution: {integrity: sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==}
     dev: true
 
-  /gdl/1.6.0:
-    resolution: {integrity: sha512-LPqLtg0bj6eKbXwVVg59H0xTNEqwxiZ6liwDS9+1vuJZE+6OdfXVDxmaVivmSQREBaG/xt7/sovrq6KZXwOxyg==}
+  /gdl/1.7.0:
+    resolution: {integrity: sha512-XgMq56ZOZP1jpJyyE3ugb1UESJhb7spXYMky+a7YcGzUfbeCaEVlxxpRM72tkwZmf5lCR9EwtBk98KQySnfVVA==}
     hasBin: true
     dependencies:
       update-notifier: 5.1.0

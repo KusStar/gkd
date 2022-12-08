@@ -1,6 +1,6 @@
 {
   "name": "@kuss/gkd-cli",
-  "version": "3.5.1",
+  "version": "3.6.0",
   "keywords": [
     "templates",
     "cli"
@@ -35,7 +35,7 @@
     "ejs": "3.1.8",
     "enquirer": "2.3.6",
     "fs-extra": "11.1.0",
-    "gdl": "1.6.0",
+    "gdl": "1.7.0",
     "ignore": "5.2.1",
     "ora": "6.1.2",
     "rimraf": "3.0.2",

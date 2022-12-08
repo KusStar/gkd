@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.6.0
+
+### Minor Changes
+
+- fix: gdl
+
 ## 3.5.1
 
 ### Patch Changes
