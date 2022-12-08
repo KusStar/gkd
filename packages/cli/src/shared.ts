@@ -1,6 +1,8 @@
-import { prompt } from 'enquirer'
+import enquirer from 'enquirer'
 import fs from 'fs'
 import path from 'path'
+
+const { prompt } = enquirer
 
 export const checkOverwritten = async (name: string) => {
   const SKIP = 'gkd: No overwrite, skip'

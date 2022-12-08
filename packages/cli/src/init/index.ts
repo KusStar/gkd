@@ -16,4 +16,6 @@ export async function init(
   }
 
   cb(name)
+
+  process.exit(0)
 }

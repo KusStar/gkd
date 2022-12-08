@@ -3,10 +3,10 @@ import fs from 'fs'
 import path from 'path'
 
 export interface Config {
-  name: string;
+  name: string
   author: {
-    name: string;
-    page: string;
+    name: string
+    page: string
   }
 }
 

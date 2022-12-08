@@ -4,11 +4,20 @@ import os from 'os'
 import path from 'path'
 import sortPackageJson from 'sort-package-json'
 
-export const defaultIgnores = ignore()
-  .add(['.git', 'CHANGELOG.md', 'README.md', 'LICENSE', 'node_modules', '*.log', 'pnpm-lock.yaml', 'yarn.lock', 'package-lock.json'])
+export const defaultIgnores = ignore().add([
+  '.git',
+  'CHANGELOG.md',
+  'README.md',
+  'LICENSE',
+  'node_modules',
+  '*.log',
+  'pnpm-lock.yaml',
+  'yarn.lock',
+  'package-lock.json',
+])
 
 const ctx = {
-  name: null
+  name: null,
 }
 const recompile = (content: string, name: string) => {
   if (name === 'package.json') {
@@ -38,14 +47,21 @@ const processFile = (fromFile: string, toFile: string, name: string) => {
   fs.writeFileSync(toFile, final)
 }
 
-export const generateTo = (from: string, to: string, ig: Ignore, root = false) => {
+export const generateTo = (
+  from: string,
+  to: string,
+  ig: Ignore,
+  root = false
+) => {
   const names = fs.readdirSync(from)
 
   if (root) {
     // hoist package.json
     const pkgIndex = names.indexOf('package.json')
     if (pkgIndex >= 0) {
-      [names[0], names[pkgIndex]] = [names[pkgIndex], names[0]]
+      const temp = names[0]
+      names[0] = names[pkgIndex]
+      names[pkgIndex] = temp
     }
   }
 
@@ -74,12 +90,14 @@ export const createTmpDir = (appPrefix: string) => {
           fs.removeSync(tmpDir)
         }
       } catch (e) {
-        console.error(`An error has occurred while removing the temp folder at ${tmpDir}. Please remove it manually. Error: ${e}`)
+        console.error(
+          `An error has occurred while removing the temp folder at ${tmpDir}. Please remove it manually. Error: ${e}`
+        )
       }
     }
     return {
       tmpDir,
-      clean
+      clean,
     }
   } catch {
     return {}

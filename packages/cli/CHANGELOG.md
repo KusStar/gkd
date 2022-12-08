@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.7.0
+
+### Minor Changes
+
+- BREAKING: use tsup and migrate to ESM
+
 ## 3.6.0
 
 ### Minor Changes

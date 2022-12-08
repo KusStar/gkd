@@ -1,5 +1,5 @@
 import ejs from 'ejs'
-import { prompt } from 'enquirer'
+import enquirer from 'enquirer'
 import fs from 'fs-extra'
 import { download } from 'gdl'
 import ora from 'ora'
@@ -9,6 +9,8 @@ import temp from 'temp'
 import { loadConfig } from '../../config'
 import { checkOverwritten } from '../../shared'
 import { Context } from '../types'
+
+const { prompt } = enquirer
 
 export const CACHE_DIR = temp.mkdirSync('kuss-gkd-cli-cache')
 
