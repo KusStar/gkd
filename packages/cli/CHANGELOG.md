@@ -1,5 +1,11 @@
 # @kuss/gkd-cli
 
+## 3.7.1
+
+### Patch Changes
+
+- feat: update-notifier v6
+
 ## 3.7.0
 
 ### Minor Changes

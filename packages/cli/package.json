@@ -1,6 +1,6 @@
 {
   "name": "@kuss/gkd-cli",
-  "version": "3.7.0",
+  "version": "3.7.1",
   "keywords": [
     "templates",
     "cli"
@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf ./dist/",
-    "build": "tsup ./src/index.ts --dts --format esm,cjs --config ./tsconfig.json --shims",
+    "build": "tsup ./src/index.ts --dts --format esm,cjs --config ./tsconfig.json --shims --minify",
     "start": "npm run build -- --watch"
   },
   "dependencies": {
@@ -33,7 +33,7 @@
     "rimraf": "3.0.2",
     "sort-package-json": "2.1.0",
     "temp": "0.9.4",
-    "update-notifier": "5.1.0",
+    "update-notifier": "6.0.2",
     "yargs": "17.6.2"
   },
   "devDependencies": {
