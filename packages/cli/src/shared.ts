@@ -11,7 +11,7 @@ export const checkOverwritten = async (name: string) => {
         type: 'confirm',
         name: 'shouldOverwrite',
         message: `${name} already exists, overwrite it?`,
-        initial: 'y'
+        initial: 'y',
       })
       if (!shouldOverwrite) {
         console.log(SKIP)

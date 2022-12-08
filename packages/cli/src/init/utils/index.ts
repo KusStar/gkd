@@ -12,7 +12,8 @@ import { Context } from '../types'
 
 export const CACHE_DIR = temp.mkdirSync('kuss-gkd-cli-cache')
 
-export const TEMPLATES_URL = 'https://github.com/KusStar/gkd/tree/master/packages/templates/src'
+export const TEMPLATES_URL =
+  'https://github.com/KusStar/gkd/tree/master/packages/templates/src'
 
 export const downloadTemplate = async (name: string, target: string) => {
   await download(`${TEMPLATES_URL}/${name}`, target)
@@ -23,9 +24,7 @@ export const getAllTemplates = async () => {
     fs.mkdirSync(CACHE_DIR, { recursive: true })
   }
   await download(TEMPLATES_URL, CACHE_DIR)
-  return fs
-    .readdirSync(CACHE_DIR)
-    .filter((template) => template !== 'common')
+  return fs.readdirSync(CACHE_DIR).filter((template) => template !== 'common')
 }
 
 export const initContext = async (name: string): Promise<Context> => {
@@ -39,12 +38,12 @@ export const initContext = async (name: string): Promise<Context> => {
       type: 'select',
       name: 'template',
       message: 'Which template do you want to generate?',
-      choices: allTemplates
+      choices: allTemplates,
     })
     return {
       name,
       template: response.template,
-      author: config.author
+      author: config.author,
     }
   } catch (e) {
     console.log('gkd: Not selected')
@@ -65,7 +64,7 @@ const replaceTemplateVariables = async (from: string, ctx: Context) => {
   const output = ejs.render(source, {
     ...ctx,
     version: '0.0.1',
-    year: new Date().getFullYear().toString()
+    year: new Date().getFullYear().toString(),
   })
 
   fs.writeFileSync(from, output)
@@ -101,6 +100,6 @@ export const startDownload = async (ctx: Context) => {
     // specific
     await downloadTemplate(template, target),
     // replace ctx
-    replaceTemplateAllFiles(target, ctx)
+    replaceTemplateAllFiles(target, ctx),
   ])
 }
