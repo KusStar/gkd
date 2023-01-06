@@ -34,7 +34,7 @@ importers:
       enquirer: 2.3.6
       fs-extra: 11.1.0
       gdl: 1.8.0
-      ignore: 5.2.1
+      ignore: 5.2.4
       ora: 6.1.2
       rimraf: 3.0.2
       sort-package-json: 2.1.0
@@ -50,7 +50,7 @@ importers:
       enquirer: 2.3.6
       fs-extra: 11.1.0
       gdl: 1.8.0
-      ignore: 5.2.1
+      ignore: 5.2.4
       ora: 6.1.2
       rimraf: 3.0.2
       sort-package-json: 2.1.0
@@ -324,7 +324,7 @@ packages:
       debug: 4.3.4
       espree: 9.4.0
       globals: 13.19.0
-      ignore: 5.2.1
+      ignore: 5.2.4
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -593,7 +593,7 @@ packages:
       debug: 4.3.4
       eslint: 8.31.0
       functional-red-black-tree: 1.0.1
-      ignore: 5.2.1
+      ignore: 5.2.4
       regexpp: 3.2.0
       semver: 7.3.7
       tsutils: 3.21.0_typescript@4.9.4
@@ -1758,7 +1758,7 @@ packages:
       eslint: 8.31.0
       eslint-plugin-es: 4.1.0_eslint@8.31.0
       eslint-utils: 3.0.0_eslint@8.31.0
-      ignore: 5.2.1
+      ignore: 5.2.4
       is-core-module: 2.9.0
       minimatch: 3.1.2
       resolve: 1.22.0
@@ -1874,7 +1874,7 @@ packages:
       glob-parent: 6.0.2
       globals: 13.19.0
       grapheme-splitter: 1.0.4
-      ignore: 5.2.1
+      ignore: 5.2.4
       import-fresh: 3.3.0
       imurmurhash: 0.1.4
       is-glob: 4.0.3
@@ -2214,7 +2214,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.2.11
-      ignore: 5.2.1
+      ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -2225,7 +2225,7 @@ packages:
     dependencies:
       dir-glob: 3.0.1
       fast-glob: 3.2.11
-      ignore: 5.2.1
+      ignore: 5.2.4
       merge2: 1.4.1
       slash: 4.0.0
     dev: false
@@ -2356,8 +2356,8 @@ packages:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
     dev: false
 
-  /ignore/5.2.1:
-    resolution: {integrity: sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==}
+  /ignore/5.2.4:
+    resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
 
   /import-fresh/3.3.0:

@@ -28,7 +28,7 @@
     "enquirer": "2.3.6",
     "fs-extra": "11.1.0",
     "gdl": "1.8.0",
-    "ignore": "5.2.1",
+    "ignore": "5.2.4",
     "ora": "6.1.2",
     "rimraf": "3.0.2",
     "sort-package-json": "2.1.0",
