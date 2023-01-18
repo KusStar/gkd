@@ -36,7 +36,7 @@ importers:
       gdl: 1.8.0
       ignore: 5.2.4
       ora: 6.1.2
-      rimraf: 3.0.2
+      rimraf: 4.1.1
       sort-package-json: 2.1.0
       temp: 0.9.4
       tsup: ^6.5.0
@@ -52,7 +52,7 @@ importers:
       gdl: 1.8.0
       ignore: 5.2.4
       ora: 6.1.2
-      rimraf: 3.0.2
+      rimraf: 4.1.1
       sort-package-json: 2.1.0
       temp: 0.9.4
       update-notifier: 6.0.2
@@ -3507,6 +3507,13 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.0
+    dev: true
+
+  /rimraf/4.1.1:
+    resolution: {integrity: sha512-Z4Y81w8atcvaJuJuBB88VpADRH66okZAuEm+Jtaufa+s7rZmIz+Hik2G53kGaNytE7lsfXyWktTmfVz0H9xuDg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: false
 
   /rollup/3.7.0:
     resolution: {integrity: sha512-FIJe0msW9P7L9BTfvaJyvn1U1BVCNTL3w8O+PKIrCyiMLg+rIUGb4MbcgVZ10Lnm1uWXOTOWRNARjfXC1+M12Q==}
