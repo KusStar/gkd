@@ -26,7 +26,7 @@ importers:
       '@types/listr': 0.14.4
       '@types/node': 18.11.18
       '@types/temp': 0.9.1
-      '@types/update-notifier': 6.0.1
+      '@types/update-notifier': 6.0.2
       '@types/yargs': 17.0.22
       chalk: 5.2.0
       dot-prop: 7.2.0
@@ -64,7 +64,7 @@ importers:
       '@types/listr': 0.14.4
       '@types/node': 18.11.18
       '@types/temp': 0.9.1
-      '@types/update-notifier': 6.0.1
+      '@types/update-notifier': 6.0.2
       '@types/yargs': 17.0.22
       tsup: 6.5.0_typescript@4.9.4
       typescript: 4.9.4
@@ -565,8 +565,8 @@ packages:
       '@types/node': 18.11.18
     dev: true
 
-  /@types/update-notifier/6.0.1:
-    resolution: {integrity: sha512-J6x9qtPDKgJGLdTjiswhhiL5QJoZv7eQb44t90mWb4Cf3tnuDRMvg8je9PoxDJZiGog0bfoFVcVHBq4RcItRZg==}
+  /@types/update-notifier/6.0.2:
+    resolution: {integrity: sha512-/OKZaYpzHqBO9D+IzqAB7VfC/fx+xl/CM1upD6D56QPNyvAsFULAVLfjlBIGCl1ibU1rKqZV45xOj018WqHhlA==}
     dependencies:
       '@types/configstore': 6.0.0
       boxen: 7.0.0
