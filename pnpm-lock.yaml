@@ -21,7 +21,7 @@ importers:
   packages/cli:
     specifiers:
       '@changesets/changelog-github': 0.4.8
-      '@types/ejs': 3.1.1
+      '@types/ejs': 3.1.2
       '@types/fs-extra': 11.0.1
       '@types/listr': 0.14.4
       '@types/node': 18.13.0
@@ -59,7 +59,7 @@ importers:
       yargs: 17.6.2
     devDependencies:
       '@changesets/changelog-github': 0.4.8
-      '@types/ejs': 3.1.1
+      '@types/ejs': 3.1.2
       '@types/fs-extra': 11.0.1
       '@types/listr': 0.14.4
       '@types/node': 18.13.0
@@ -486,8 +486,8 @@ packages:
     resolution: {integrity: sha512-GUvNiia85zTDDIx0iPrtF3pI8dwrQkfuokEqxqPDE55qxH0U5SZz4awVZjiJLWN2ZZRkXCUqgsMUbygXY+kytA==}
     dev: true
 
-  /@types/ejs/3.1.1:
-    resolution: {integrity: sha512-RQul5wEfY7BjWm0sYY86cmUN/pcXWGyVxWX93DFFJvcrxax5zKlieLwA3T77xJGwNcZW0YW6CYG70p1m8xPFmA==}
+  /@types/ejs/3.1.2:
+    resolution: {integrity: sha512-ZmiaE3wglXVWBM9fyVC17aGPkLo/UgaOjEiI2FXQfyczrCefORPxIe+2dVmnmk3zkVIbizjrlQzmPGhSYGXG5g==}
     dev: true
 
   /@types/fs-extra/11.0.1:
