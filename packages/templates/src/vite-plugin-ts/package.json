@@ -25,7 +25,7 @@
   "devDependencies": {
     "@kuss/eslint-config-vanilla": "2.6.1",
     "@release-it/conventional-changelog": "5.1.1",
-    "release-it": "15.9.1",
+    "release-it": "15.9.3",
     "eslint": "8.35.0",
     "tsup": "6.7.0",
     "typescript": "5.0.2",
