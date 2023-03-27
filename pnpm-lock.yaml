@@ -27,7 +27,7 @@ importers:
       '@types/node': 18.15.10
       '@types/temp': 0.9.1
       '@types/update-notifier': 6.0.2
-      '@types/yargs': 17.0.23
+      '@types/yargs': 17.0.24
       chalk: 5.2.0
       dot-prop: 7.2.0
       ejs: 3.1.9
@@ -65,7 +65,7 @@ importers:
       '@types/node': 18.15.10
       '@types/temp': 0.9.1
       '@types/update-notifier': 6.0.2
-      '@types/yargs': 17.0.23
+      '@types/yargs': 17.0.24
       tsup: 6.5.0_typescript@5.0.2
       typescript: 5.0.2
 
@@ -596,8 +596,8 @@ packages:
     resolution: {integrity: sha512-7tFImggNeNBVMsn0vLrpn1H1uPrUBdnARPTpZoitY37ZrdJREzf7I16tMrlK3hen349gr1NYh8CmZQa7CTG6Aw==}
     dev: true
 
-  /@types/yargs/17.0.23:
-    resolution: {integrity: sha512-yuogunc04OnzGQCrfHx+Kk883Q4X0aSwmYZhKjI21m+SVYzjIbrWl8dOOwSv5hf2Um2pdCOXWo9isteZTNXUZQ==}
+  /@types/yargs/17.0.24:
+    resolution: {integrity: sha512-6i0aC7jV6QzQB8ne1joVZ0eSFIstHsCrobmOtghM11yGlH0j43FKL2UhWdELkyps0zuf7qVTUVCCR+tgSlyLLw==}
     dependencies:
       '@types/yargs-parser': 20.2.1
     dev: true
