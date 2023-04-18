@@ -29,9 +29,9 @@
     "eslint": "8.38.0",
     "tsup": "6.7.0",
     "typescript": "5.0.4",
-    "vite": "4.2.1"
+    "vite": "4.2.2"
   },
   "peerDependencies": {
-    "vite": "4.2.1"
+    "vite": "4.2.2"
   }
 }
