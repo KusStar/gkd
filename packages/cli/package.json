@@ -34,7 +34,7 @@
     "sort-package-json": "2.4.1",
     "temp": "0.9.4",
     "update-notifier": "6.0.2",
-    "yargs": "17.7.1"
+    "yargs": "17.7.2"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.8",
