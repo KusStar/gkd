@@ -84,8 +84,8 @@ importers:
         specifier: 0.9.1
         version: 0.9.1
       '@types/update-notifier':
-        specifier: 6.0.2
-        version: 6.0.2
+        specifier: 6.0.4
+        version: 6.0.4
       '@types/yargs':
         specifier: 17.0.24
         version: 17.0.24
@@ -612,8 +612,8 @@ packages:
       '@types/node': 18.16.7
     dev: true
 
-  /@types/update-notifier@6.0.2:
-    resolution: {integrity: sha512-/OKZaYpzHqBO9D+IzqAB7VfC/fx+xl/CM1upD6D56QPNyvAsFULAVLfjlBIGCl1ibU1rKqZV45xOj018WqHhlA==}
+  /@types/update-notifier@6.0.4:
+    resolution: {integrity: sha512-CiKJPSmt/3F4sVnkQTjnP/onKtTJxRkib6Gvw4XESM8FNsHlvRnBNqU5qL0IQmqjtKnz5e9E6Y7xChOpvxFzKg==}
     dependencies:
       '@types/configstore': 6.0.0
       boxen: 7.0.0
