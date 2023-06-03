@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/node": "18.16.7",
     "release-it": "15.10.3",
-    "tslib": "2.5.0",
+    "tslib": "2.5.3",
     "tsup": "6.7.0",
     "typescript": "5.0.4"
   },
