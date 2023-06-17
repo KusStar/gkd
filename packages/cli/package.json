@@ -45,7 +45,7 @@
     "@types/temp": "0.9.1",
     "@types/update-notifier": "6.0.4",
     "@types/yargs": "17.0.24",
-    "tsup": "^6.5.0",
+    "tsup": "^7.0.0",
     "typescript": "5.1.3"
   },
   "engines": {
