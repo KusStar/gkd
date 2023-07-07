@@ -33,8 +33,8 @@ importers:
         specifier: 5.3.0
         version: 5.3.0
       dot-prop:
-        specifier: 8.0.0
-        version: 8.0.0
+        specifier: 8.0.1
+        version: 8.0.1
       ejs:
         specifier: 3.1.9
         version: 3.1.9
@@ -1592,8 +1592,8 @@ packages:
       is-obj: 2.0.0
     dev: false
 
-  /dot-prop@8.0.0:
-    resolution: {integrity: sha512-XHcoBL9YPvqIz6K9m9TLf9+6Iyf2ix6yYN+sZ4AI8JPg+8XQpm05V6qzPFZYzyuHfr496TqKlhzHuEvW4ME7Pw==}
+  /dot-prop@8.0.1:
+    resolution: {integrity: sha512-iGSfpEt8JjvdDFBrRplg5faL1dWBF6ae+vd02QF9CLP7SaOA8CFBgbBfVVZ1aNYK2dfXDJS3KK6qJzd/b5QyLQ==}
     engines: {node: '>=16'}
     dependencies:
       type-fest: 3.11.1
