@@ -85,8 +85,8 @@ importers:
         specifier: 18.17.15
         version: 18.17.15
       '@types/temp':
-        specifier: 0.9.1
-        version: 0.9.1
+        specifier: 0.9.2
+        version: 0.9.2
       '@types/update-notifier':
         specifier: 6.0.5
         version: 6.0.5
@@ -818,8 +818,8 @@ packages:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
     dev: true
 
-  /@types/temp@0.9.1:
-    resolution: {integrity: sha512-yDQ8Y+oQi9V7VkexwE6NBSVyNuyNFeGI275yWXASc2DjmxNicMi9O50KxDpNlST1kBbV9jKYBHGXhgNYFMPqtA==}
+  /@types/temp@0.9.2:
+    resolution: {integrity: sha512-n5sIDpSsilIPZU7i9R3Ts0JZEGKNz3tGF2q7I74QedOFRkdHTNIbbIt8DA3+GyqoNsi1UO9MXENmqd2VlDYAmg==}
     dependencies:
       '@types/node': 18.17.15
     dev: true
