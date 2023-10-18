@@ -79,8 +79,8 @@ importers:
         specifier: 11.0.2
         version: 11.0.2
       '@types/listr':
-        specifier: 0.14.6
-        version: 0.14.6
+        specifier: 0.14.7
+        version: 0.14.7
       '@types/node':
         specifier: 18.18.5
         version: 18.18.5
@@ -786,8 +786,8 @@ packages:
       '@types/node': 18.18.5
     dev: false
 
-  /@types/listr@0.14.6:
-    resolution: {integrity: sha512-h8hgp9cw16wB2F24c9c/YkylvtM/X9Kwg9jDtRprSpC0WnU4HNTzecj9TVI7sEZB+NjTI7GZKcRElXYIGd/kdg==}
+  /@types/listr@0.14.7:
+    resolution: {integrity: sha512-NnlutIHVCfJE1BkTKE/qCAmJRV2p+VOf28Wj9ytQ3cEg49enXEShBzoiVXCdZnztpNEh70zxbwZZoS9TEz2Jwg==}
     dependencies:
       '@types/node': 18.18.5
       rxjs: 6.6.7
