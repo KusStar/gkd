@@ -18,8 +18,8 @@ importers:
         specifier: 2.6.1
         version: 2.6.1(@typescript-eslint/parser@5.30.7)(eslint@8.52.0)(typescript@5.2.2)
       '@types/node':
-        specifier: 20.8.8
-        version: 20.8.8
+        specifier: 20.8.10
+        version: 20.8.10
       eslint:
         specifier: 8.52.0
         version: 8.52.0
@@ -82,8 +82,8 @@ importers:
         specifier: 0.14.7
         version: 0.14.7
       '@types/node':
-        specifier: 20.8.8
-        version: 20.8.8
+        specifier: 20.8.10
+        version: 20.8.10
       '@types/temp':
         specifier: 0.9.3
         version: 0.9.3
@@ -753,7 +753,7 @@ packages:
     resolution: {integrity: sha512-sF59BlXtUdzEAL1u0MSvuzWd7PdZvZEtnaVkzX5mjpdWTJ8brG0jUqve3jPCzSzvAKKMHTG8F8o/WMQLtleZdQ==}
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 20.8.8
+      '@types/node': 20.8.10
     dev: true
 
   /@types/http-cache-semantics@4.0.1:
@@ -777,19 +777,19 @@ packages:
   /@types/jsonfile@6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.10
     dev: true
 
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.10
     dev: false
 
   /@types/listr@0.14.7:
     resolution: {integrity: sha512-NnlutIHVCfJE1BkTKE/qCAmJRV2p+VOf28Wj9ytQ3cEg49enXEShBzoiVXCdZnztpNEh70zxbwZZoS9TEz2Jwg==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.10
       rxjs: 6.6.7
     dev: true
 
@@ -801,10 +801,10 @@ packages:
     resolution: {integrity: sha512-+5haRZ9uzI7rYqzDznXgkuacqb6LJhAti8mzZKWxIXn/WEtvB+GHVJ7AuMwcN1HMvXOSJcrvA6PPoYHYOYYebA==}
     dev: true
 
-  /@types/node@20.8.8:
-    resolution: {integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==}
+  /@types/node@20.8.10:
+    resolution: {integrity: sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==}
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -813,7 +813,7 @@ packages:
   /@types/responselike@1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.10
     dev: false
 
   /@types/semver@7.5.0:
@@ -823,7 +823,7 @@ packages:
   /@types/temp@0.9.3:
     resolution: {integrity: sha512-nGBEaq8uLbc+mDhpEE6bJHgR4d0WUUfJTBHXxRQsdLVLwZVfBl8F6HKl15MeAhrp3OlQgExyec7HG6JJ3xPzLw==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.10
     dev: true
 
   /@types/update-notifier@6.0.6:
@@ -4212,8 +4212,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici-types@5.25.3:
-    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
   /unique-string@2.0.0:
     resolution: {integrity: sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==}
