@@ -44,7 +44,7 @@
     "@types/node": "20.8.10",
     "@types/temp": "0.9.3",
     "@types/update-notifier": "6.0.6",
-    "@types/yargs": "17.0.29",
+    "@types/yargs": "17.0.30",
     "tsup": "^7.0.0",
     "typescript": "5.2.2"
   },

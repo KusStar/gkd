@@ -91,8 +91,8 @@ importers:
         specifier: 6.0.6
         version: 6.0.6
       '@types/yargs':
-        specifier: 17.0.29
-        version: 17.0.29
+        specifier: 17.0.30
+        version: 17.0.30
       tsup:
         specifier: ^7.0.0
         version: 7.0.0(typescript@5.2.2)
@@ -837,8 +837,8 @@ packages:
     resolution: {integrity: sha512-7tFImggNeNBVMsn0vLrpn1H1uPrUBdnARPTpZoitY37ZrdJREzf7I16tMrlK3hen349gr1NYh8CmZQa7CTG6Aw==}
     dev: true
 
-  /@types/yargs@17.0.29:
-    resolution: {integrity: sha512-nacjqA3ee9zRF/++a3FUY1suHTFKZeHba2n8WeDw9cCVdmzmHpIxyzOJBcpHvvEmS8E9KqWlSnWHUkOrkhWcvA==}
+  /@types/yargs@17.0.30:
+    resolution: {integrity: sha512-3SJLzYk3yz3EgI9I8OLoH06B3PdXIoU2imrBZzaGqUtUXf5iUNDtmAfCGuQrny1bnmyjh/GM/YNts6WK5jR5Rw==}
     dependencies:
       '@types/yargs-parser': 20.2.1
     dev: true
