@@ -85,8 +85,8 @@ importers:
         specifier: 20.8.10
         version: 20.8.10
       '@types/temp':
-        specifier: 0.9.3
-        version: 0.9.3
+        specifier: 0.9.4
+        version: 0.9.4
       '@types/update-notifier':
         specifier: 6.0.6
         version: 6.0.6
@@ -820,8 +820,8 @@ packages:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
     dev: true
 
-  /@types/temp@0.9.3:
-    resolution: {integrity: sha512-nGBEaq8uLbc+mDhpEE6bJHgR4d0WUUfJTBHXxRQsdLVLwZVfBl8F6HKl15MeAhrp3OlQgExyec7HG6JJ3xPzLw==}
+  /@types/temp@0.9.4:
+    resolution: {integrity: sha512-+VfWIwrlept2VBTj7Y2wQnI/Xfscy1u8Pyj/puYwss6V1IblXn1x7S0S9eFh6KyBolgLCm+rUFzhFAbdkR691g==}
     dependencies:
       '@types/node': 20.8.10
     dev: true
