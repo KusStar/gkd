@@ -18,8 +18,8 @@ importers:
         specifier: 2.6.1
         version: 2.6.1(@typescript-eslint/parser@5.30.7)(eslint@8.55.0)(typescript@5.3.2)
       '@types/node':
-        specifier: 20.9.5
-        version: 20.9.5
+        specifier: 20.10.4
+        version: 20.10.4
       eslint:
         specifier: 8.55.0
         version: 8.55.0
@@ -82,8 +82,8 @@ importers:
         specifier: 0.14.9
         version: 0.14.9
       '@types/node':
-        specifier: 20.9.5
-        version: 20.9.5
+        specifier: 20.10.4
+        version: 20.10.4
       '@types/temp':
         specifier: 0.9.4
         version: 0.9.4
@@ -848,7 +848,7 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 20.9.5
+      '@types/node': 20.10.4
     dev: true
 
   /@types/http-cache-semantics@4.0.1:
@@ -866,19 +866,19 @@ packages:
   /@types/jsonfile@6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 20.9.5
+      '@types/node': 20.10.4
     dev: true
 
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.9.5
+      '@types/node': 20.10.4
     dev: false
 
   /@types/listr@0.14.9:
     resolution: {integrity: sha512-Ncsy/jtO/HZYrupLGcnp1BOswZVsNvggjIjnf2EZ1xECfU4hxcQ3FWvFEyR+/DXssz0HDm74Op/tEsyrB3eV5w==}
     dependencies:
-      '@types/node': 20.9.5
+      '@types/node': 20.10.4
       rxjs: 6.6.7
     dev: true
 
@@ -890,8 +890,8 @@ packages:
     resolution: {integrity: sha512-+5haRZ9uzI7rYqzDznXgkuacqb6LJhAti8mzZKWxIXn/WEtvB+GHVJ7AuMwcN1HMvXOSJcrvA6PPoYHYOYYebA==}
     dev: true
 
-  /@types/node@20.9.5:
-    resolution: {integrity: sha512-Uq2xbNq0chGg+/WQEU0LJTSs/1nKxz6u1iemLcGomkSnKokbW1fbLqc3HOqCf2JP7KjlL4QkS7oZZTrOQHQYgQ==}
+  /@types/node@20.10.4:
+    resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
     dependencies:
       undici-types: 5.26.5
 
@@ -902,7 +902,7 @@ packages:
   /@types/responselike@1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 20.9.5
+      '@types/node': 20.10.4
     dev: false
 
   /@types/semver@7.5.0:
@@ -912,7 +912,7 @@ packages:
   /@types/temp@0.9.4:
     resolution: {integrity: sha512-+VfWIwrlept2VBTj7Y2wQnI/Xfscy1u8Pyj/puYwss6V1IblXn1x7S0S9eFh6KyBolgLCm+rUFzhFAbdkR691g==}
     dependencies:
-      '@types/node': 20.9.5
+      '@types/node': 20.10.4
     dev: true
 
   /@types/update-notifier@6.0.8:
