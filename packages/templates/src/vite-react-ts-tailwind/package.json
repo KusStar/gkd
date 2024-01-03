@@ -4,6 +4,7 @@
   "homepage": "<%- author.page %>/<%- name %>#readme",
   "license": "MIT",
   "author": "<%- author.name %> (<%- author.page %>)",
+  "type": "module",
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
@@ -14,6 +15,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^20.10.6",
     "@types/react": "18.2.45",
     "@types/react-dom": "18.2.18",
     "@vitejs/plugin-react": "4.2.1",
