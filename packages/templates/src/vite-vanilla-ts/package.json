@@ -14,7 +14,7 @@
   "devDependencies": {
     "@kuss/eslint-config-vanilla": "2.6.1",
     "@types/node": "^20.10.6",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "typescript": "5.4.2",
     "vite": "5.1.6"
   },
