@@ -18,8 +18,8 @@ importers:
         specifier: 2.6.1
         version: 2.6.1(@typescript-eslint/parser@5.30.7(eslint@9.1.0)(typescript@5.4.3))(eslint@9.1.0)(typescript@5.4.3)
       '@types/node':
-        specifier: 20.11.30
-        version: 20.11.30
+        specifier: 20.12.7
+        version: 20.12.7
       eslint:
         specifier: 9.1.0
         version: 9.1.0
@@ -82,8 +82,8 @@ importers:
         specifier: 0.14.9
         version: 0.14.9
       '@types/node':
-        specifier: 20.11.30
-        version: 20.11.30
+        specifier: 20.12.7
+        version: 20.12.7
       '@types/temp':
         specifier: 0.9.4
         version: 0.9.4
@@ -537,8 +537,8 @@ packages:
   '@types/node@12.20.36':
     resolution: {integrity: sha512-+5haRZ9uzI7rYqzDznXgkuacqb6LJhAti8mzZKWxIXn/WEtvB+GHVJ7AuMwcN1HMvXOSJcrvA6PPoYHYOYYebA==}
 
-  '@types/node@20.11.30':
-    resolution: {integrity: sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==}
+  '@types/node@20.12.7':
+    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -3106,7 +3106,7 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 20.11.30
+      '@types/node': 20.12.7
 
   '@types/http-cache-semantics@4.0.1': {}
 
@@ -3116,22 +3116,22 @@ snapshots:
 
   '@types/jsonfile@6.1.1':
     dependencies:
-      '@types/node': 20.11.30
+      '@types/node': 20.12.7
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.11.30
+      '@types/node': 20.12.7
 
   '@types/listr@0.14.9':
     dependencies:
-      '@types/node': 20.11.30
+      '@types/node': 20.12.7
       rxjs: 6.6.7
 
   '@types/minimist@1.2.2': {}
 
   '@types/node@12.20.36': {}
 
-  '@types/node@20.11.30':
+  '@types/node@20.12.7':
     dependencies:
       undici-types: 5.26.5
 
@@ -3139,13 +3139,13 @@ snapshots:
 
   '@types/responselike@1.0.0':
     dependencies:
-      '@types/node': 20.11.30
+      '@types/node': 20.12.7
 
   '@types/semver@7.5.0': {}
 
   '@types/temp@0.9.4':
     dependencies:
-      '@types/node': 20.11.30
+      '@types/node': 20.12.7
 
   '@types/update-notifier@6.0.8':
     dependencies:
