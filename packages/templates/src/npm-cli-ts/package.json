@@ -22,7 +22,7 @@
     "update-notifier": "7.0.0"
   },
   "devDependencies": {
-    "@types/node": "20.11.30",
+    "@types/node": "20.12.7",
     "release-it": "17.1.1",
     "tslib": "2.6.2",
     "tsup": "8.0.2",
