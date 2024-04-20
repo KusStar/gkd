@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "20.12.7",
-    "release-it": "17.1.1",
+    "release-it": "17.2.0",
     "tslib": "2.6.2",
     "tsup": "8.0.2",
     "typescript": "5.4.3"
