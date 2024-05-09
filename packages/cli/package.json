@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "chalk": "5.3.0",
-    "dot-prop": "8.0.2",
+    "dot-prop": "9.0.0",
     "ejs": "3.1.10",
     "enquirer": "2.4.1",
     "fs-extra": "11.2.0",
