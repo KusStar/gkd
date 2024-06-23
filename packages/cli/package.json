@@ -46,7 +46,7 @@
     "@types/update-notifier": "6.0.8",
     "@types/yargs": "17.0.32",
     "tsup": "^8.0.0",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "engines": {
     "node": ">=12"
