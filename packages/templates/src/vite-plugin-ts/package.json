@@ -27,7 +27,7 @@
     "@release-it/conventional-changelog": "8.0.1",
     "release-it": "17.4.0",
     "eslint": "9.5.0",
-    "tsup": "8.0.2",
+    "tsup": "8.1.0",
     "typescript": "5.4.5",
     "vite": "5.3.1"
   },
