@@ -18,7 +18,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@types/node": "20.14.8",
+    "@types/node": "20.14.10",
     "release-it": "17.4.0",
     "tsup": "8.1.0",
     "typescript": "5.5.2"
