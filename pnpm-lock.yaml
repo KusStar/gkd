@@ -36,7 +36,7 @@ importers:
       gdl: 1.8.0
       ignore: 5.3.1
       ora: 8.0.1
-      rimraf: 5.0.7
+      rimraf: 5.0.9
       sort-package-json: 2.10.0
       temp: 0.9.4
       tsup: ^8.0.0
@@ -52,7 +52,7 @@ importers:
       gdl: 1.8.0
       ignore: 5.3.1
       ora: 8.0.1
-      rimraf: 5.0.7
+      rimraf: 5.0.9
       sort-package-json: 2.10.0
       temp: 0.9.4
       update-notifier: 7.0.0
@@ -2486,6 +2486,7 @@ packages:
 
   /glob/7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -3730,14 +3731,15 @@ packages:
 
   /rimraf/2.6.3:
     resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
     dev: false
 
-  /rimraf/5.0.7:
-    resolution: {integrity: sha512-nV6YcJo5wbLW77m+8KjH8aB/7/rxQy9SZ0HY5shnwULfS+9nmTtVXAJET5NdZmCzA4fPI/Hm1wo/Po/4mopOdg==}
-    engines: {node: '>=14.18'}
+  /rimraf/5.0.9:
+    resolution: {integrity: sha512-3i7b8OcswU6CpU8Ej89quJD4O98id7TtVM5U4Mybh84zQXdrFmDLouWBEEaD/QfO3gDDfH+AGFCGsR7kngzQnA==}
+    engines: {node: 14 >=14.20 || 16 >=16.20 || >=18}
     hasBin: true
     dependencies:
       glob: 10.3.12
