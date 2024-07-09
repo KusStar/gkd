@@ -15,7 +15,7 @@
     "@kuss/eslint-config-vanilla": "2.6.1",
     "@types/node": "^20.10.6",
     "eslint": "9.6.0",
-    "typescript": "5.5.2",
+    "typescript": "5.5.3",
     "vite": "5.3.3"
   },
   "license": "MIT"
