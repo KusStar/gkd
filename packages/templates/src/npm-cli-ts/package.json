@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "cac": "^6.7.12",
-    "update-notifier": "7.0.0"
+    "update-notifier": "7.1.0"
   },
   "devDependencies": {
     "@types/node": "20.14.10",
