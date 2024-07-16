@@ -30,7 +30,7 @@
     "gdl": "1.8.0",
     "ignore": "5.3.1",
     "ora": "8.0.1",
-    "rimraf": "6.0.0",
+    "rimraf": "6.0.1",
     "sort-package-json": "2.10.0",
     "temp": "0.9.4",
     "update-notifier": "7.0.0",
