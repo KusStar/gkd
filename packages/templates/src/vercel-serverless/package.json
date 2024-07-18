@@ -8,6 +8,6 @@
   "author": "<%- author.name %>",
   "license": "MIT",
   "devDependencies": {
-    "@vercel/node": "3.2.3"
+    "@vercel/node": "3.2.7"
   }
 }
