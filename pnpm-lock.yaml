@@ -7,14 +7,14 @@ importers:
       '@changesets/changelog-github': 0.5.0
       '@changesets/cli': 2.27.7
       '@kuss/eslint-config-vanilla': 2.6.1
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
       eslint: 9.7.0
       typescript: 5.5.3
     devDependencies:
       '@changesets/changelog-github': 0.5.0
       '@changesets/cli': 2.27.7
       '@kuss/eslint-config-vanilla': 2.6.1_kqqajdnz4s6cmhwewkb5kbnj3m
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
       eslint: 9.7.0
       typescript: 5.5.3
 
@@ -24,7 +24,7 @@ importers:
       '@types/ejs': 3.1.5
       '@types/fs-extra': 11.0.4
       '@types/listr': 0.14.9
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
       '@types/temp': 0.9.4
       '@types/update-notifier': 6.0.8
       '@types/yargs': 17.0.32
@@ -62,7 +62,7 @@ importers:
       '@types/ejs': 3.1.5
       '@types/fs-extra': 11.0.4
       '@types/listr': 0.14.9
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
       '@types/temp': 0.9.4
       '@types/update-notifier': 6.0.8
       '@types/yargs': 17.0.32
@@ -884,7 +884,7 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
     dev: true
 
   /@types/json-schema/7.0.15:
@@ -898,19 +898,19 @@ packages:
   /@types/jsonfile/6.1.4:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     dependencies:
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
     dev: true
 
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
     dev: false
 
   /@types/listr/0.14.9:
     resolution: {integrity: sha512-Ncsy/jtO/HZYrupLGcnp1BOswZVsNvggjIjnf2EZ1xECfU4hxcQ3FWvFEyR+/DXssz0HDm74Op/tEsyrB3eV5w==}
     dependencies:
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
       rxjs: 6.6.7
     dev: true
 
@@ -918,15 +918,15 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
 
-  /@types/node/20.14.11:
-    resolution: {integrity: sha512-kprQpL8MMeszbz6ojB5/tU8PLN4kesnN8Gjzw349rDlNgsSzg90lAVj3llK99Dh7JON+t9AuscPPFW6mPbTnSA==}
+  /@types/node/20.14.12:
+    resolution: {integrity: sha512-r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==}
     dependencies:
       undici-types: 5.26.5
 
   /@types/responselike/1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
     dev: false
 
   /@types/semver/7.5.8:
@@ -936,7 +936,7 @@ packages:
   /@types/temp/0.9.4:
     resolution: {integrity: sha512-+VfWIwrlept2VBTj7Y2wQnI/Xfscy1u8Pyj/puYwss6V1IblXn1x7S0S9eFh6KyBolgLCm+rUFzhFAbdkR691g==}
     dependencies:
-      '@types/node': 20.14.11
+      '@types/node': 20.14.12
     dev: true
 
   /@types/update-notifier/6.0.8:
