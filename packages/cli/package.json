@@ -33,7 +33,7 @@
     "rimraf": "6.0.1",
     "sort-package-json": "2.10.0",
     "temp": "0.9.4",
-    "update-notifier": "7.1.0",
+    "update-notifier": "7.2.0",
     "yargs": "17.7.2"
   },
   "devDependencies": {
