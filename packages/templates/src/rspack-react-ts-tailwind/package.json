@@ -16,7 +16,7 @@
     "@rspack/cli": "0.7.5",
     "@rspack/core": "0.7.5",
     "@rspack/plugin-react-refresh": "0.7.5",
-    "@types/react": "18.3.3",
+    "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
