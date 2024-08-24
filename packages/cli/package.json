@@ -31,7 +31,7 @@
     "ignore": "5.3.2",
     "ora": "8.0.1",
     "rimraf": "6.0.1",
-    "sort-package-json": "2.10.0",
+    "sort-package-json": "2.10.1",
     "temp": "0.9.4",
     "update-notifier": "7.2.0",
     "yargs": "17.7.2"
