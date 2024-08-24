@@ -41,7 +41,7 @@
     "@types/ejs": "3.1.5",
     "@types/fs-extra": "11.0.4",
     "@types/listr": "0.14.9",
-    "@types/node": "20.14.12",
+    "@types/node": "20.16.1",
     "@types/temp": "0.9.4",
     "@types/update-notifier": "6.0.8",
     "@types/yargs": "17.0.32",
