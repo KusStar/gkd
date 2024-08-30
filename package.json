@@ -17,7 +17,7 @@
     "@changesets/cli": "2.27.7",
     "@kuss/eslint-config-vanilla": "2.6.1",
     "@types/node": "20.16.1",
-    "eslint": "9.8.0",
+    "eslint": "9.9.1",
     "typescript": "5.5.4"
   }
 }
