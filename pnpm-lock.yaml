@@ -41,7 +41,7 @@ importers:
       temp: 0.9.4
       tsup: ^8.0.0
       typescript: 5.5.4
-      update-notifier: 7.2.0
+      update-notifier: 7.3.0
       yargs: 17.7.2
     dependencies:
       chalk: 5.3.0
@@ -55,7 +55,7 @@ importers:
       rimraf: 6.0.1
       sort-package-json: 2.10.1
       temp: 0.9.4
-      update-notifier: 7.2.0
+      update-notifier: 7.3.0
       yargs: 17.7.2
     devDependencies:
       '@changesets/changelog-github': 0.5.0
@@ -2654,11 +2654,6 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /import-lazy/4.0.0:
-    resolution: {integrity: sha512-rKtvo6a868b5Hu3heneU+L4yEQ4jYKLtjpnPeUdK7h0yzXGmyBTypknlkCvHFBqfX9YlorEiMM6Dnq/5atfHkw==}
-    engines: {node: '>=8'}
-    dev: false
-
   /imurmurhash/0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
@@ -3819,13 +3814,6 @@ packages:
       semver: 6.3.1
     dev: false
 
-  /semver-diff/4.0.0:
-    resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
-    engines: {node: '>=12'}
-    dependencies:
-      semver: 7.6.3
-    dev: false
-
   /semver/6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
@@ -4335,21 +4323,19 @@ packages:
       xdg-basedir: 4.0.0
     dev: false
 
-  /update-notifier/7.2.0:
-    resolution: {integrity: sha512-GoBCFKIbF88latQyk8HpHUoJHqZUzYSPI6BySAjs5TWd/TCTMynAsIfGfJ6Ep2DAx6O5YExYGPs3Hdnt2TWdzQ==}
+  /update-notifier/7.3.0:
+    resolution: {integrity: sha512-nA5Zoy3rahYd/Lx1s6jZYHfrKKYOgw0kThkLdwgJtXEFsXqEbMnwdVNPT9D+HELlEXqTR7Iq8rjg/NjenGLIvg==}
     engines: {node: '>=18'}
     dependencies:
       boxen: 8.0.0
       chalk: 5.3.0
       configstore: 7.0.0
-      import-lazy: 4.0.0
       is-in-ci: 1.0.0
       is-installed-globally: 1.0.0
       is-npm: 6.0.0
       latest-version: 9.0.0
       pupa: 3.1.0
       semver: 7.6.3
-      semver-diff: 4.0.0
       xdg-basedir: 5.1.0
     dev: false
 
