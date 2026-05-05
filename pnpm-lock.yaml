@@ -4,14 +4,14 @@ importers:
 
   .:
     specifiers:
-      '@changesets/changelog-github': 0.5.0
+      '@changesets/changelog-github': 0.7.0
       '@changesets/cli': 2.27.8
       '@kuss/eslint-config-vanilla': 2.6.1
       '@types/node': 20.16.5
       eslint: 9.28.0
       typescript: 5.8.3
     devDependencies:
-      '@changesets/changelog-github': 0.5.0
+      '@changesets/changelog-github': 0.7.0
       '@changesets/cli': 2.27.8
       '@kuss/eslint-config-vanilla': 2.6.1_mfbdtxf3jtud33j3ztgcgvvc3q
       '@types/node': 20.16.5
@@ -20,7 +20,7 @@ importers:
 
   packages/cli:
     specifiers:
-      '@changesets/changelog-github': 0.5.0
+      '@changesets/changelog-github': 0.7.0
       '@types/ejs': 3.1.5
       '@types/fs-extra': 11.0.4
       '@types/listr': 0.14.9
@@ -58,7 +58,7 @@ importers:
       update-notifier: 7.3.1
       yargs: 17.7.2
     devDependencies:
-      '@changesets/changelog-github': 0.5.0
+      '@changesets/changelog-github': 0.7.0
       '@types/ejs': 3.1.5
       '@types/fs-extra': 11.0.4
       '@types/listr': 0.14.9
@@ -118,11 +118,11 @@ packages:
       '@changesets/types': 6.0.0
     dev: true
 
-  /@changesets/changelog-github/0.5.0:
-    resolution: {integrity: sha512-zoeq2LJJVcPJcIotHRJEEA2qCqX0AQIeFE+L21L8sRLPVqDhSXY8ZWAt2sohtBpFZkBwu+LUwMSKRr2lMy3LJA==}
+  /@changesets/changelog-github/0.7.0:
+    resolution: {integrity: sha512-rBsbRvc4TVn+FvFnOVM3LxlFJfTXXCp8gfVJ+0BubxWNSVnLuAzowi5j+IEraLLP52w8AAs9QfKbPS3MMiXQJA==}
     dependencies:
-      '@changesets/get-github-info': 0.6.0
-      '@changesets/types': 6.0.0
+      '@changesets/get-github-info': 0.8.0
+      '@changesets/types': 6.1.0
       dotenv: 8.6.0
     transitivePeerDependencies:
       - encoding
@@ -191,8 +191,8 @@ packages:
       semver: 7.6.3
     dev: true
 
-  /@changesets/get-github-info/0.6.0:
-    resolution: {integrity: sha512-v/TSnFVXI8vzX9/w3DU2Ol+UlTZcu3m0kXTjTT4KlAdwSvwutcByYwyYn9hwerPWfPkT2JfpoX0KgvCEi8Q/SA==}
+  /@changesets/get-github-info/0.8.0:
+    resolution: {integrity: sha512-cRnC+xdF0JIik7coko3iUP9qbnfi1iJQ3sAa6dE+Tx3+ET8bjFEm63PA4WEohgjYcmsOikPHWzPsMWWiZmntOQ==}
     dependencies:
       dataloader: 1.4.0
       node-fetch: 2.7.0
@@ -272,6 +272,10 @@ packages:
 
   /@changesets/types/6.0.0:
     resolution: {integrity: sha512-b1UkfNulgKoWfqyHtzKS5fOZYSJO+77adgL7DLRDr+/7jhChN+QcHnbjiQVOz/U+Ts3PGNySq7diAItzDgugfQ==}
+    dev: true
+
+  /@changesets/types/6.1.0:
+    resolution: {integrity: sha512-rKQcJ+o1nKNgeoYRHKOS07tAMNd3YSN0uHaJOZYjBAgxfV7TUE7JE+z4BzZdQwb5hKaYbayKN5KrYV7ODb2rAA==}
     dev: true
 
   /@changesets/write/0.3.2:
