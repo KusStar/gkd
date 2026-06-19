@@ -34,7 +34,7 @@
     "sort-package-json": "2.10.1",
     "temp": "0.9.4",
     "update-notifier": "7.3.1",
-    "yargs": "17.7.2"
+    "yargs": "17.7.3"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.0",
@@ -44,7 +44,7 @@
     "@types/node": "20.16.5",
     "@types/temp": "0.9.4",
     "@types/update-notifier": "6.0.8",
-    "@types/yargs": "17.0.33",
+    "@types/yargs": "17.0.35",
     "tsup": "^8.0.0",
     "typescript": "5.8.3"
   },
